@@ -7,12 +7,12 @@
     />
     <div class="space-y-24">
       <ul class="space-y-8">
-        <AppUsesHeader title="MS in Business Analytics, USC Marshall School of Business" />
-        <AppUsesItem v-for="(item, id) in usc" :key="id" :item="item" />
+        <AppAcademicHeader title="MS in Business Analytics, USC Marshall School of Business" />
+        <AppAcademicItem v-for="(item, id) in usc" :key="id" :item="item" />
       </ul>
       <ul class="space-y-8">
-        <AppUsesHeader title="BSc in Computer Science, IPB University" />
-        <AppUsesItem v-for="(item, id) in ipb" :key="id" :item="item" />
+        <AppAcademicHeader title="BSc in Computer Science, IPB University" />
+        <AppAcademicItem v-for="(item, id) in ipb" :key="id" :item="item" />
       </ul>
     </div>
   </main>
@@ -40,4 +40,4 @@ const usc = items.value.filter((item) => item.category === "usc");
 // const ipb = items.value.filter((item) => item.category === "ipb");
 // const desk = items.value.filter((item) => item.category === "desk");
 // const other = items.value.filter((item) => item.category === "others");
-</script>../content/academic/usc.vue../content/academic/usc.vue
+</script>

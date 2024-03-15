@@ -46,11 +46,11 @@ const items = [
     path: "/projects",
     // icon: "solar:folder-with-files-outline",
   },
-  {
-    name: "Articles",
-    path: "/articles",
-    // icon: "solar:document-add-outline",
-  },
+  // {
+  //   name: "Blog",
+  //   path: "/articles",
+  //   // icon: "solar:document-add-outline",
+  // },
   // { 
   //   name: "Lab", 
   //   path: "/lab", 

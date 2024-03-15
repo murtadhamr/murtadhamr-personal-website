@@ -11,9 +11,9 @@
 
 <script setup>
 const description =
-  "All of my long-form thoughts on programming, user interfaces, product design, and more, collected in chronological order.";
+  "All about interesting things: data, analytics, machine learning.";
 useSeoMeta({
-  title: "Articles | Fayaz Ahmed",
+  title: "Blog | Muhammad Murtadha Ramadhan",
   description,
 });
 
