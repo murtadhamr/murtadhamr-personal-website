@@ -4,81 +4,81 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\n  <div class=\"space-y-6\">\n    <NuxtImg src=\"/avatar.png\" alt=\"Fayaz Ahmed\"\n      class=\"ring-2 border ring-gray-200 border-gray-300 dark:ring-white/10 dark:border-gray-800 hover:ring-4 transition-all duration-300 bg-gray-200 dark:bg-gray-900 rounded-full h-12 w-12 sm:h-16 sm:w-16\"\n      sizes=\"48px sm:64px\" placeholder format=\"webp\" />\n    <h1 class=\"text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100\">\n      Hello there!\n    </h1>\n    <p class=\"text-gray-900 dark:text-gray-400\" style=\"text-align: justify;\">\n      Muhammad Murtadha Ramadhan, usually called Ado, is a business analytics professional with solid experiences \n      in 2 largest Indonesia tech companies #1 Grab and #2 Tokopedia (GoTo Group) where he took part in composing \n      actionable insights through analytics and developing business strategy and operations. Ado is currently \n      a Master of Science in Business Analytics candidate in University of Southern California Marshall School of Business. \n      Prior to it, Ado graduated with a Bachelor's Degree in Computer Science from IPB University and was awarded \n      as one of the best students in Indonesia. \n    </p>\n    <p class=\"text-gray-900 dark:text-gray-400\">\n      My resume is accessible \n      <a href = \"https://drive.google.com/file/d/1WMiAsEDsJmUcozfC1UFTJUk_GHxBsm8V/view?usp=sharing\" \n      target=\"_blank\" style=\"color:blue;\">here</a>\n    </p>\n  </div>\n</template>\n\n<script setup>\nuseSeoMeta({\n  title: \"Muhammad Murtadha Ramadhan\",\n  description:\n    \"I'm Ado, your data guy\",\n});\n</script>\n",
-      "start": 1710545879460,
-      "end": 1710545879647,
+      "start": 1710546165474,
+      "end": 1710546165663,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "pre"
     },
     {
       "name": "content-slot",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "pre"
     },
     {
       "name": "content-slot",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1710545879647,
-      "end": 1710545879647,
+      "start": 1710546165663,
+      "end": 1710546165663,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'Intro',\n  __ssrInlineRender: true,\n  setup(__props) {\n\nuseSeoMeta({\n  title: \"Muhammad Murtadha Ramadhan\",\n  description:\n    \"I'm Ado, your data guy\",\n});\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_NuxtImg = _resolveComponent(\"NuxtImg\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"space-y-6\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/avatar.png\",\n    alt: \"Fayaz Ahmed\",\n    class: \"ring-2 border ring-gray-200 border-gray-300 dark:ring-white/10 dark:border-gray-800 hover:ring-4 transition-all duration-300 bg-gray-200 dark:bg-gray-900 rounded-full h-12 w-12 sm:h-16 sm:w-16\",\n    sizes: \"48px sm:64px\",\n    placeholder: \"\",\n    format: \"webp\"\n  }, null, _parent))\n  _push(`<h1 class=\"text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100\"> Hello there! </h1><p class=\"text-gray-900 dark:text-gray-400\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Muhammad Murtadha Ramadhan, usually called Ado, is a business analytics professional with solid experiences in 2 largest Indonesia tech companies #1 Grab and #2 Tokopedia (GoTo Group) where he took part in composing actionable insights through analytics and developing business strategy and operations. Ado is currently a Master of Science in Business Analytics candidate in University of Southern California Marshall School of Business. Prior to it, Ado graduated with a Bachelor&#39;s Degree in Computer Science from IPB University and was awarded as one of the best students in Indonesia. </p><p class=\"text-gray-900 dark:text-gray-400\"> My resume is accessible <a href=\"https://drive.google.com/file/d/1WMiAsEDsJmUcozfC1UFTJUk_GHxBsm8V/view?usp=sharing\" target=\"_blank\" style=\"${\n    _ssrRenderStyle({\"color\":\"blue\"})\n  }\">here</a></p></div>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/Home/Intro.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1710545879647,
-      "end": 1710545879648,
+      "start": 1710546165663,
+      "end": 1710546165664,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -94,117 +94,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1710545879648,
-      "end": 1710545879648,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { useSeoMeta } from '@unhead/vue';\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'Intro',\n  __ssrInlineRender: true,\n  setup(__props) {\n\nuseSeoMeta({\n  title: \"Muhammad Murtadha Ramadhan\",\n  description:\n    \"I'm Ado, your data guy\",\n});\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_NuxtImg = _resolveComponent(\"NuxtImg\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"space-y-6\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/avatar.png\",\n    alt: \"Fayaz Ahmed\",\n    class: \"ring-2 border ring-gray-200 border-gray-300 dark:ring-white/10 dark:border-gray-800 hover:ring-4 transition-all duration-300 bg-gray-200 dark:bg-gray-900 rounded-full h-12 w-12 sm:h-16 sm:w-16\",\n    sizes: \"48px sm:64px\",\n    placeholder: \"\",\n    format: \"webp\"\n  }, null, _parent))\n  _push(`<h1 class=\"text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100\"> Hello there! </h1><p class=\"text-gray-900 dark:text-gray-400\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Muhammad Murtadha Ramadhan, usually called Ado, is a business analytics professional with solid experiences in 2 largest Indonesia tech companies #1 Grab and #2 Tokopedia (GoTo Group) where he took part in composing actionable insights through analytics and developing business strategy and operations. Ado is currently a Master of Science in Business Analytics candidate in University of Southern California Marshall School of Business. Prior to it, Ado graduated with a Bachelor&#39;s Degree in Computer Science from IPB University and was awarded as one of the best students in Indonesia. </p><p class=\"text-gray-900 dark:text-gray-400\"> My resume is accessible <a href=\"https://drive.google.com/file/d/1WMiAsEDsJmUcozfC1UFTJUk_GHxBsm8V/view?usp=sharing\" target=\"_blank\" style=\"${\n    _ssrRenderStyle({\"color\":\"blue\"})\n  }\">here</a></p></div>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/Home/Intro.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1710545879648,
-      "end": 1710545879649,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -218,8 +218,8 @@
     {
       "name": "nuxt:imports-transform",
       "result": "import { useSeoMeta } from '@unhead/vue';\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'Intro',\n  __ssrInlineRender: true,\n  setup(__props) {\n\nuseSeoMeta({\n  title: \"Muhammad Murtadha Ramadhan\",\n  description:\n    \"I'm Ado, your data guy\",\n});\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_NuxtImg = _resolveComponent(\"NuxtImg\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"space-y-6\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/avatar.png\",\n    alt: \"Fayaz Ahmed\",\n    class: \"ring-2 border ring-gray-200 border-gray-300 dark:ring-white/10 dark:border-gray-800 hover:ring-4 transition-all duration-300 bg-gray-200 dark:bg-gray-900 rounded-full h-12 w-12 sm:h-16 sm:w-16\",\n    sizes: \"48px sm:64px\",\n    placeholder: \"\",\n    format: \"webp\"\n  }, null, _parent))\n  _push(`<h1 class=\"text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100\"> Hello there! </h1><p class=\"text-gray-900 dark:text-gray-400\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Muhammad Murtadha Ramadhan, usually called Ado, is a business analytics professional with solid experiences in 2 largest Indonesia tech companies #1 Grab and #2 Tokopedia (GoTo Group) where he took part in composing actionable insights through analytics and developing business strategy and operations. Ado is currently a Master of Science in Business Analytics candidate in University of Southern California Marshall School of Business. Prior to it, Ado graduated with a Bachelor&#39;s Degree in Computer Science from IPB University and was awarded as one of the best students in Indonesia. </p><p class=\"text-gray-900 dark:text-gray-400\"> My resume is accessible <a href=\"https://drive.google.com/file/d/1WMiAsEDsJmUcozfC1UFTJUk_GHxBsm8V/view?usp=sharing\" target=\"_blank\" style=\"${\n    _ssrRenderStyle({\"color\":\"blue\"})\n  }\">here</a></p></div>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/Home/Intro.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1710545879648,
-      "end": 1710545879649,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -232,39 +232,39 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1710545879649,
-      "end": 1710545879649,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1710545879649,
-      "end": 1710545879649,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1710545879649,
-      "end": 1710545879649,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1710545879649,
-      "end": 1710545879649,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1710545879649,
-      "end": 1710545879649,
+      "start": 1710546165664,
+      "end": 1710546165664,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/image/dist/runtime/components/nuxt-img\";\nimport { useSeoMeta } from '@unhead/vue';\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'Intro',\n  __ssrInlineRender: true,\n  setup(__props) {\n\nuseSeoMeta({\n  title: \"Muhammad Murtadha Ramadhan\",\n  description:\n    \"I'm Ado, your data guy\",\n});\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_NuxtImg = __nuxt_component_0\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"space-y-6\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/avatar.png\",\n    alt: \"Fayaz Ahmed\",\n    class: \"ring-2 border ring-gray-200 border-gray-300 dark:ring-white/10 dark:border-gray-800 hover:ring-4 transition-all duration-300 bg-gray-200 dark:bg-gray-900 rounded-full h-12 w-12 sm:h-16 sm:w-16\",\n    sizes: \"48px sm:64px\",\n    placeholder: \"\",\n    format: \"webp\"\n  }, null, _parent))\n  _push(`<h1 class=\"text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100\"> Hello there! </h1><p class=\"text-gray-900 dark:text-gray-400\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Muhammad Murtadha Ramadhan, usually called Ado, is a business analytics professional with solid experiences in 2 largest Indonesia tech companies #1 Grab and #2 Tokopedia (GoTo Group) where he took part in composing actionable insights through analytics and developing business strategy and operations. Ado is currently a Master of Science in Business Analytics candidate in University of Southern California Marshall School of Business. Prior to it, Ado graduated with a Bachelor&#39;s Degree in Computer Science from IPB University and was awarded as one of the best students in Indonesia. </p><p class=\"text-gray-900 dark:text-gray-400\"> My resume is accessible <a href=\"https://drive.google.com/file/d/1WMiAsEDsJmUcozfC1UFTJUk_GHxBsm8V/view?usp=sharing\" target=\"_blank\" style=\"${\n    _ssrRenderStyle({\"color\":\"blue\"})\n  }\">here</a></p></div>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/Home/Intro.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1710545879649,
-      "end": 1710545879649,
+      "start": 1710546165664,
+      "end": 1710546165665,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -277,20 +277,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1710545879649,
-      "end": 1710545879649,
+      "start": 1710546165665,
+      "end": 1710546165665,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1710545879649,
-      "end": 1710545879649,
+      "start": 1710546165665,
+      "end": 1710546165665,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1710545879649,
-      "end": 1710545879649,
+      "start": 1710546165665,
+      "end": 1710546165665,
       "order": "normal"
     }
   ]
