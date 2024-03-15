@@ -1,7 +1,7 @@
 import { e as useRuntimeConfig } from '../server.mjs';
 import { defineComponent, computed, mergeProps, unref, useSSRContext } from 'vue';
 import { ssrRenderAttrs } from 'vue/server-renderer';
-import { I as withLeadingSlash, B as withTrailingSlash, t as joinURL } from '../../nitro/node-server.mjs';
+import { E as withLeadingSlash, B as withTrailingSlash, t as joinURL } from '../../nitro/node-server.mjs';
 import 'unhead';
 import '@unhead/shared';
 import 'vue-router';

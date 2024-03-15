@@ -6,27 +6,26 @@
     <h1 class="text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100">
       Hello!
     </h1>
-    <p class="text-gray-900 dark:text-gray-400">
-      I'm Fayaz, I work as a software, product engineer and designer from
-      Bengaluru, India. I specialize in building web applications and sites
-      using Javascript, React, Vue &amp; Node. I've procrastinated building this
-      website for years but finally it's here, I've carved out my own little
-      nook on the internet to share my silly experiments, nifty projects, and
-      thoughts (mostly about tech and design).
+    <p class="text-gray-900 dark:text-gray-400" style="text-align: justify;">
+      Muhammad Murtadha Ramadhan, usually called Ado, is a business analytics professional with solid experiences 
+      in 2 largest Indonesia tech companies #1 Grab and #2 Tokopedia (GoTo Group) where he took part in composing 
+      actionable insights through analytics and developing business strategy and operations. Ado is currently 
+      a Master of Science in Business Analytics candidate in University of Southern California Marshall School of Business. 
+      Prior to it, Ado graduated with a Bachelor's Degree in Computer Science from IPB University and was awarded 
+      as one of the best students in Indonesia. 
     </p>
     <p class="text-gray-900 dark:text-gray-400">
-      By day, I'm a Fullstack Developer at
-      <a href="https://headshotpro.com" target="_blank" class="underline">Headshotpro</a>, and
-      by night (and weekends), I'm busy tinkering with some random tool or app
-      that I am building.
+      My resume is accessible 
+      <a href = "https://drive.google.com/file/d/1WMiAsEDsJmUcozfC1UFTJUk_GHxBsm8V/view?usp=sharing" 
+      target="_blank" style="color:blue;">here</a>
     </p>
   </div>
 </template>
 
 <script setup>
 useSeoMeta({
-  title: "Fayaz Ahmed",
+  title: "Muhammad Murtadha Ramadhan",
   description:
-    "I'm Fayaz, your friendly neighborhood software, product engineer and designer from Bengaluru, India. I specialize in building web applications and sites using Javascript, React, Vue & Node.",
+    "I'm Ado, your data guy",
 });
 </script>

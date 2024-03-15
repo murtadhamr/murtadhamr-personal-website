@@ -695,12 +695,20 @@ const createError = (error) => {
 };
 const _routes = [
   {
+    name: "academic",
+    path: "/academic",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/academic-Bo8FWa-S.mjs').then((m) => m.default || m)
+  },
+  {
     name: "articles-slug",
     path: "/articles/:slug()",
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/_slug_-DqV5P2E3.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_slug_-NE9xNlbY.mjs').then((m) => m.default || m)
   },
   {
     name: "articles",
@@ -708,7 +716,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-C4ija1Gq.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-BVc007ly.mjs').then((m) => m.default || m)
   },
   {
     name: "bookmarks",
@@ -716,7 +724,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/bookmarks-CVA6cOwV.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/bookmarks-COrzaIG4.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -724,7 +732,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-BajHqLxL.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index--kkpUd1G.mjs').then((m) => m.default || m)
   },
   {
     name: "lab",
@@ -732,7 +740,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/lab-D_GcVAHI.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/lab-TOH8OTpi.mjs').then((m) => m.default || m)
   },
   {
     name: "projects",
@@ -740,15 +748,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/projects-CBccqVWw.mjs').then((m) => m.default || m)
-  },
-  {
-    name: "whats-in-my-bag",
-    path: "/whats-in-my-bag",
-    meta: {},
-    alias: [],
-    redirect: void 0,
-    component: () => import('./_nuxt/whats-in-my-bag-CM1dpm3L.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/projects-CMvnAEMc.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -883,7 +883,7 @@ const cfg0 = defineAppConfig({
 });
 const inlineConfig = {
   "nuxt": {
-    "buildId": "ed10d172-ae87-4b9c-985a-7bc200bd28eb"
+    "buildId": "54024e09-ec37-4f4d-8bfb-32b729d3ca59"
   },
   "ui": {
     "primary": "green",
@@ -1120,12 +1120,12 @@ const LazyLabCard = defineAsyncComponent(() => import('./_nuxt/LabCard-DDmoe65a.
 const LazyRocket = defineAsyncComponent(() => import('./_nuxt/Rocket-YwEOCgX2.mjs').then((r) => r.default));
 const LazyShapes = defineAsyncComponent(() => import('./_nuxt/Shapes-CdDCAmh5.mjs').then((r) => r.default));
 const LazyTextRotator = defineAsyncComponent(() => import('./_nuxt/TextRotator-CrAxHdX8.mjs').then((r) => r.default));
-const LazyContentDoc = defineAsyncComponent(() => import('./_nuxt/ContentDoc-DVwZwgAo.mjs').then((r) => r.default));
-const LazyContentList = defineAsyncComponent(() => import('./_nuxt/ContentList-D9bB355M.mjs').then((r) => r.default));
-const LazyContentNavigation = defineAsyncComponent(() => import('./_nuxt/ContentNavigation-BjrzhlA_.mjs').then((r) => r.default));
-const LazyContentQuery = defineAsyncComponent(() => import('./_nuxt/ContentQuery-wDhbYb9M.mjs').then((r) => r.default));
-const LazyContentRenderer = defineAsyncComponent(() => import('./_nuxt/ContentRenderer-CavdRbEC.mjs').then((r) => r.default));
-const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./_nuxt/ContentRendererMarkdown-Bkqn6NiH.mjs').then((r) => r.default));
+const LazyContentDoc = defineAsyncComponent(() => import('./_nuxt/ContentDoc-DRaq4rie.mjs').then((r) => r.default));
+const LazyContentList = defineAsyncComponent(() => import('./_nuxt/ContentList-CzsYrPJc.mjs').then((r) => r.default));
+const LazyContentNavigation = defineAsyncComponent(() => import('./_nuxt/ContentNavigation-5jwRtaAN.mjs').then((r) => r.default));
+const LazyContentQuery = defineAsyncComponent(() => import('./_nuxt/ContentQuery-BrIGTIyO.mjs').then((r) => r.default));
+const LazyContentRenderer = defineAsyncComponent(() => import('./_nuxt/ContentRenderer-BPhJTaQq.mjs').then((r) => r.default));
+const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./_nuxt/ContentRendererMarkdown-DIXPNc_5.mjs').then((r) => r.default));
 const LazyContentSlot = defineAsyncComponent(() => import('./_nuxt/ContentSlot-DY7LiAz9.mjs').then((r) => r.default));
 const LazyDocumentDrivenEmpty = defineAsyncComponent(() => import('./_nuxt/DocumentDrivenEmpty-CVfz7tly.mjs').then((r) => r.default));
 const LazyDocumentDrivenNotFound = defineAsyncComponent(() => import('./_nuxt/DocumentDrivenNotFound-4pTrsASA.mjs').then((r) => r.default));
@@ -3876,7 +3876,7 @@ _sfc_main$6.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/App/ThemeToggle.vue");
   return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
 };
-const __nuxt_component_3$1 = _sfc_main$6;
+const __nuxt_component_2$1 = _sfc_main$6;
 const _sfc_main$5 = {
   __name: "Navbar",
   __ssrInlineRender: true,
@@ -3884,34 +3884,41 @@ const _sfc_main$5 = {
     const headerRef = ref(null);
     const { styles } = useFixedHeader(headerRef);
     const items = [
-      { name: "Home", path: "/", icon: "solar:home-smile-outline" },
+      {
+        name: "Home",
+        path: "/"
+        // icon: "solar:home-smile-outline" 
+      },
       {
         name: "Projects",
-        path: "/projects",
-        icon: "solar:folder-with-files-outline"
+        path: "/projects"
+        // icon: "solar:folder-with-files-outline",
       },
       {
         name: "Articles",
-        path: "/articles",
-        icon: "solar:document-add-outline"
+        path: "/articles"
+        // icon: "solar:document-add-outline",
       },
-      { name: "Lab", path: "/lab", icon: "heroicons:beaker" },
+      // { 
+      //   name: "Lab", 
+      //   path: "/lab", 
+      //   // icon: "heroicons:beaker" 
+      // },
       {
-        name: "What's in my bag?",
-        path: "/whats-in-my-bag",
-        icon: "solar:backpack-outline"
-      },
-      {
-        name: "Bookmarks",
-        path: "/bookmarks",
-        icon: "solar:bookmark-linear"
+        name: "Academic",
+        path: "/academic"
+        // icon: "solar:backpack-outline",
       }
+      // {
+      //   name: "Bookmarks",
+      //   path: "/bookmarks",
+      //   // icon: "solar:bookmark-linear",
+      // },
     ];
     return (_ctx, _push, _parent, _attrs) => {
       const _component_UTooltip = __nuxt_component_0$3;
       const _component_ULink = __nuxt_component_0$1;
-      const _component_Icon = __nuxt_component_0;
-      const _component_AppThemeToggle = __nuxt_component_3$1;
+      const _component_AppThemeToggle = __nuxt_component_2$1;
       _push(`<div${ssrRenderAttrs(mergeProps({
         ref_key: "headerRef",
         ref: headerRef,
@@ -3933,38 +3940,19 @@ const _sfc_main$5 = {
               }, {
                 default: withCtx((_2, _push3, _parent3, _scopeId2) => {
                   if (_push3) {
-                    _push3(ssrRenderComponent(_component_Icon, {
-                      "aria-hidden": "true",
-                      name: item.icon,
-                      class: "w-5 h-5 z-10"
-                    }, null, _parent3, _scopeId2));
                     if (_ctx.$route.path === item.path) {
                       _push3(`<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"${_scopeId2}></span>`);
                     } else {
                       _push3(`<!---->`);
                     }
-                    if (_ctx.$route.path === item.path) {
-                      _push3(`<span class="absolute h-8 w-8 z-0 rounded-full bg-gray-100 dark:bg-white/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"${_scopeId2}></span>`);
-                    } else {
-                      _push3(`<!---->`);
-                    }
-                    _push3(`<span class="sr-only"${_scopeId2}>${ssrInterpolate(item.name)}</span>`);
+                    _push3(`<span${_scopeId2}>${ssrInterpolate(item.name)}</span>`);
                   } else {
                     return [
-                      createVNode(_component_Icon, {
-                        "aria-hidden": "true",
-                        name: item.icon,
-                        class: "w-5 h-5 z-10"
-                      }, null, 8, ["name"]),
                       _ctx.$route.path === item.path ? (openBlock(), createBlock("span", {
                         key: 0,
                         class: "absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"
                       })) : createCommentVNode("", true),
-                      _ctx.$route.path === item.path ? (openBlock(), createBlock("span", {
-                        key: 1,
-                        class: "absolute h-8 w-8 z-0 rounded-full bg-gray-100 dark:bg-white/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-                      })) : createCommentVNode("", true),
-                      createVNode("span", { class: "sr-only" }, toDisplayString(item.name), 1)
+                      createVNode("span", null, toDisplayString(item.name), 1)
                     ];
                   }
                 }),
@@ -3978,20 +3966,11 @@ const _sfc_main$5 = {
                   "active-class": "text-primary-600 dark:text-primary-400"
                 }, {
                   default: withCtx(() => [
-                    createVNode(_component_Icon, {
-                      "aria-hidden": "true",
-                      name: item.icon,
-                      class: "w-5 h-5 z-10"
-                    }, null, 8, ["name"]),
                     _ctx.$route.path === item.path ? (openBlock(), createBlock("span", {
                       key: 0,
                       class: "absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"
                     })) : createCommentVNode("", true),
-                    _ctx.$route.path === item.path ? (openBlock(), createBlock("span", {
-                      key: 1,
-                      class: "absolute h-8 w-8 z-0 rounded-full bg-gray-100 dark:bg-white/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-                    })) : createCommentVNode("", true),
-                    createVNode("span", { class: "sr-only" }, toDisplayString(item.name), 1)
+                    createVNode("span", null, toDisplayString(item.name), 1)
                   ]),
                   _: 2
                 }, 1032, ["to"])
@@ -4211,7 +4190,7 @@ function hasChildrenRoutes(fork, newRoute, Component) {
 }
 const _sfc_main$3 = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
-  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "max-w-2xl mx-auto text-gray-400 dark:text-gray-600 text-sm text-center pb-8" }, _attrs))}><br><p>© 2023 Fayaz Ahmed. All rights reserved.</p></footer>`);
+  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "max-w-2xl mx-auto text-gray-400 dark:text-gray-600 text-sm text-center pb-8" }, _attrs))}><br><div class="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400"><div>Copyright © ${ssrInterpolate((/* @__PURE__ */ new Date()).getFullYear())}</div><div><a href="https://github.com/fayazara/zooper">Template powered by fayazara</a></div></div></footer>`);
 }
 const _sfc_setup$3 = _sfc_main$3.setup;
 _sfc_main$3.setup = (props, ctx) => {
@@ -4356,5 +4335,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { _export_sfc as _, __nuxt_component_0$2 as a, useRoute as b, createError as c, useSeoMeta as d, entry$1 as default, useRuntimeConfig as e, useNuxtApp as f, __nuxt_component_0 as g, appConfig as h, input as i, useUI as j, __nuxt_component_0$1 as k, looseToNumber as l, mergeConfig as m, useAppConfig as n, asyncDataDefaults as o, useState as p, resolveIconName as r, useHead as u };
+export { _export_sfc as _, __nuxt_component_0$2 as a, useSeoMeta as b, createError as c, useRoute as d, entry$1 as default, useRuntimeConfig as e, useNuxtApp as f, __nuxt_component_0 as g, appConfig as h, input as i, useUI as j, __nuxt_component_0$1 as k, looseToNumber as l, mergeConfig as m, useAppConfig as n, asyncDataDefaults as o, useState as p, resolveIconName as r, useHead as u };
 //# sourceMappingURL=server.mjs.map
