@@ -5,7 +5,7 @@ import cfg0 from "/Users/murtadha.ramadhan/Documents/personal-website-3/app.conf
 
 declare const inlineConfig = {
   "nuxt": {
-    "buildId": "59f9d7fa-ec7a-4d8f-b83d-d4d97a377ac3"
+    "buildId": "542a77da-bd20-49ef-bbb7-77d1be1a2ede"
   },
   "ui": {
     "primary": "green",

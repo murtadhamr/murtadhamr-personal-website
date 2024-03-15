@@ -6,10 +6,11 @@ const isDark = computed({
     return colorMode.value === "light";
   },
   set() {
-    colorMode.preference = colorMode.value === "light" ? "dark" : "light";
+    colorMode.preference = colorMode.value === "dark" ? "light" : "dark";
   },
 });
 </script>
+
 
 <template>
   <UTooltip text="Toggle theme" :ui="{ popper: { strategy: 'absolute' } }">
