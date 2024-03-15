@@ -625,7 +625,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/_slug_-BG80Z-by.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_slug_-B0WHQppc.mjs').then((m) => m.default || m)
   },
   {
     name: "articles",
@@ -641,7 +641,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/bookmarks-KWYxJafU.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/bookmarks-B2Qb4gJw.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -649,7 +649,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-CXib3tAW.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-QwplxrPT.mjs').then((m) => m.default || m)
   },
   {
     name: "lab",
@@ -657,7 +657,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/lab-CbnmoZ4B.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/lab-CHEf6Iv-.mjs').then((m) => m.default || m)
   },
   {
     name: "projects",
@@ -665,7 +665,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/projects-BVt4ZQWt.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/projects-CemtSO3D.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -800,7 +800,7 @@ const cfg0 = defineAppConfig({
 });
 const inlineConfig = {
   "nuxt": {
-    "buildId": "542a77da-bd20-49ef-bbb7-77d1be1a2ede"
+    "buildId": "7f89b6b9-eb38-41e6-b150-16e1a0082cc5"
   },
   "ui": {
     "primary": "green",
@@ -3613,7 +3613,7 @@ const _sfc_main$6 = {
     const colorMode = useColorMode();
     const isDark = computed({
       get() {
-        return colorMode.value === "light";
+        return colorMode.value === "dark";
       },
       set() {
         colorMode.preference = colorMode.value === "dark" ? "light" : "dark";

@@ -3,7 +3,7 @@ const colorMode = useColorMode();
 
 const isDark = computed({
   get() {
-    return colorMode.value === "light";
+    return colorMode.value === "dark";
   },
   set() {
     colorMode.preference = colorMode.value === "dark" ? "light" : "dark";

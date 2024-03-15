@@ -28,9 +28,9 @@
 
 <script setup>
 const description =
-  "Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com";
+  "Lorem Ipsum";
 useSeoMeta({
-  title: "Bookmarks | Fayaz Ahmed",
+  title: "Bookmarks | Muhammad Murtadha Ramadhan",
   description,
 });
 

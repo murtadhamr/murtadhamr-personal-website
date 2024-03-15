@@ -4,81 +4,81 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\n  <main class=\"min-h-screen\">\n    <AppHeader\n      class=\"mb-12\"\n      title=\"Academic courses\"\n      :description=\"description\"\n    />\n    <div class=\"space-y-24\">\n      <ul class=\"space-y-8\">\n        <AppAcademicHeader title=\"MS in Business Analytics, USC Marshall School of Business\" />\n        <AppAcademicItem v-for=\"(item, id) in usc\" :key=\"id\" :item=\"item\" />\n      </ul>\n      <ul class=\"space-y-8\">\n        <AppAcademicHeader title=\"BSc in Computer Science, IPB University\" />\n        <AppAcademicItem v-for=\"(item, id) in ipb\" :key=\"id\" :item=\"item\" />\n      </ul>\n    </div>\n  </main>\n</template>\n\n<script setup>\n\nconst description =\n  \"Academic courses I have completed during my academic journey\";\nuseSeoMeta({\n  title: \"Academic courses | Muhammad Murtadha Ramadhan\",\n  description,\n});\n\nconst { data: items } = await useAsyncData(\"academic\", () =>\n  queryContent(\"/academic\").find()\n);\nconst ipb = items.value.filter((item) => item.category === \"ipb\");\nconst usc = items.value.filter((item) => item.category === \"usc\");\n\n// const ipbItems = items.value.filter((item) => item.category === \"ipb\");\n\n// const ipb = ipbData;\n// const usc = items.value.filter((item) => item.category === \"usc\");\n// const ipb = items.value.filter((item) => item.category === \"ipb\");\n// const desk = items.value.filter((item) => item.category === \"desk\");\n// const other = items.value.filter((item) => item.category === \"others\");\n</script>\n",
-      "start": 1710543816270,
-      "end": 1710543816372,
+      "start": 1710545568454,
+      "end": 1710545568528,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "pre"
     },
     {
       "name": "content-slot",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "pre"
     },
     {
       "name": "content-slot",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { withAsyncContext as _withAsyncContext } from 'vue'\nimport { resolveComponent as _resolveComponent, unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nconst description =\n  \"Academic courses I have completed during my academic journey\";\n\nconst _sfc_main = {\n  __name: 'academic',\n  __ssrInlineRender: true,\n  async setup(__props) {\n\nlet __temp, __restore\n\n\nuseSeoMeta({\n  title: \"Academic courses | Muhammad Murtadha Ramadhan\",\n  description,\n});\n\nconst { data: items } = (\n  ([__temp,__restore] = _withAsyncContext(() => useAsyncData(\"academic\", () =>\n  queryContent(\"/academic\").find()\n))),\n  __temp = await __temp,\n  __restore(),\n  __temp\n);\nconst ipb = items.value.filter((item) => item.category === \"ipb\");\nconst usc = items.value.filter((item) => item.category === \"usc\");\n\n// const ipbItems = items.value.filter((item) => item.category === \"ipb\");\n\n// const ipb = ipbData;\n// const usc = items.value.filter((item) => item.category === \"usc\");\n// const ipb = items.value.filter((item) => item.category === \"ipb\");\n// const desk = items.value.filter((item) => item.category === \"desk\");\n// const other = items.value.filter((item) => item.category === \"others\");\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_AppHeader = _resolveComponent(\"AppHeader\")\n  const _component_AppAcademicHeader = _resolveComponent(\"AppAcademicHeader\")\n  const _component_AppAcademicItem = _resolveComponent(\"AppAcademicItem\")\n\n  _push(`<main${_ssrRenderAttrs(_mergeProps({ class: \"min-h-screen\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_AppHeader, {\n    class: \"mb-12\",\n    title: \"Academic courses\",\n    description: description\n  }, null, _parent))\n  _push(`<div class=\"space-y-24\"><ul class=\"space-y-8\">`)\n  _push(_ssrRenderComponent(_component_AppAcademicHeader, { title: \"MS in Business Analytics, USC Marshall School of Business\" }, null, _parent))\n  _push(`<!--[-->`)\n  _ssrRenderList(_unref(usc), (item, id) => {\n    _push(_ssrRenderComponent(_component_AppAcademicItem, {\n      key: id,\n      item: item\n    }, null, _parent))\n  })\n  _push(`<!--]--></ul><ul class=\"space-y-8\">`)\n  _push(_ssrRenderComponent(_component_AppAcademicHeader, { title: \"BSc in Computer Science, IPB University\" }, null, _parent))\n  _push(`<!--[-->`)\n  _ssrRenderList(_unref(ipb), (item, id) => {\n    _push(_ssrRenderComponent(_component_AppAcademicItem, {\n      key: id,\n      item: item\n    }, null, _parent))\n  })\n  _push(`<!--]--></ul></div></main>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/academic.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -94,117 +94,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568528,
+      "end": 1710545568528,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568544,
+      "end": 1710545568544,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568544,
+      "end": 1710545568544,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568544,
+      "end": 1710545568544,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568544,
+      "end": 1710545568544,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568544,
+      "end": 1710545568544,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568544,
+      "end": 1710545568544,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568545,
+      "end": 1710545568545,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568545,
+      "end": 1710545568545,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568545,
+      "end": 1710545568545,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568545,
+      "end": 1710545568545,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568545,
+      "end": 1710545568545,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568545,
+      "end": 1710545568545,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1710543816372,
-      "end": 1710543816372,
+      "start": 1710545568545,
+      "end": 1710545568545,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1710543816372,
-      "end": 1710543816373,
+      "start": 1710545568545,
+      "end": 1710545568545,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1710543816372,
-      "end": 1710543816373,
+      "start": 1710545568545,
+      "end": 1710545568545,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { useSeoMeta } from '@unhead/vue';\nimport { useAsyncData } from '#app/composables/asyncData';\nimport { queryContent } from '/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/legacy/composables/query';\nimport { withAsyncContext as _withAsyncContext } from 'vue'\nimport { resolveComponent as _resolveComponent, unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nconst description =\n  \"Academic courses I have completed during my academic journey\";\n\nconst _sfc_main = {\n  __name: 'academic',\n  __ssrInlineRender: true,\n  async setup(__props) {\n\nlet __temp, __restore\n\n\nuseSeoMeta({\n  title: \"Academic courses | Muhammad Murtadha Ramadhan\",\n  description,\n});\n\nconst { data: items } = (\n  ([__temp,__restore] = _withAsyncContext(() => useAsyncData(\"academic\", () =>\n  queryContent(\"/academic\").find()\n))),\n  __temp = await __temp,\n  __restore(),\n  __temp\n);\nconst ipb = items.value.filter((item) => item.category === \"ipb\");\nconst usc = items.value.filter((item) => item.category === \"usc\");\n\n// const ipbItems = items.value.filter((item) => item.category === \"ipb\");\n\n// const ipb = ipbData;\n// const usc = items.value.filter((item) => item.category === \"usc\");\n// const ipb = items.value.filter((item) => item.category === \"ipb\");\n// const desk = items.value.filter((item) => item.category === \"desk\");\n// const other = items.value.filter((item) => item.category === \"others\");\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_AppHeader = _resolveComponent(\"AppHeader\")\n  const _component_AppAcademicHeader = _resolveComponent(\"AppAcademicHeader\")\n  const _component_AppAcademicItem = _resolveComponent(\"AppAcademicItem\")\n\n  _push(`<main${_ssrRenderAttrs(_mergeProps({ class: \"min-h-screen\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_AppHeader, {\n    class: \"mb-12\",\n    title: \"Academic courses\",\n    description: description\n  }, null, _parent))\n  _push(`<div class=\"space-y-24\"><ul class=\"space-y-8\">`)\n  _push(_ssrRenderComponent(_component_AppAcademicHeader, { title: \"MS in Business Analytics, USC Marshall School of Business\" }, null, _parent))\n  _push(`<!--[-->`)\n  _ssrRenderList(_unref(usc), (item, id) => {\n    _push(_ssrRenderComponent(_component_AppAcademicItem, {\n      key: id,\n      item: item\n    }, null, _parent))\n  })\n  _push(`<!--]--></ul><ul class=\"space-y-8\">`)\n  _push(_ssrRenderComponent(_component_AppAcademicHeader, { title: \"BSc in Computer Science, IPB University\" }, null, _parent))\n  _push(`<!--[-->`)\n  _ssrRenderList(_unref(ipb), (item, id) => {\n    _push(_ssrRenderComponent(_component_AppAcademicItem, {\n      key: id,\n      item: item\n    }, null, _parent))\n  })\n  _push(`<!--]--></ul></div></main>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/academic.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568545,
+      "end": 1710545568546,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -218,8 +218,8 @@
     {
       "name": "nuxt:imports-transform",
       "result": "import { useSeoMeta } from '@unhead/vue';\nimport { useAsyncData } from '#app/composables/asyncData';\nimport { queryContent } from '/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/legacy/composables/query';\nimport { withAsyncContext as _withAsyncContext } from 'vue'\nimport { resolveComponent as _resolveComponent, unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nconst description =\n  \"Academic courses I have completed during my academic journey\";\n\nconst _sfc_main = {\n  __name: 'academic',\n  __ssrInlineRender: true,\n  async setup(__props) {\n\nlet __temp, __restore\n\n\nuseSeoMeta({\n  title: \"Academic courses | Muhammad Murtadha Ramadhan\",\n  description,\n});\n\nconst { data: items } = (\n  ([__temp,__restore] = _withAsyncContext(() => useAsyncData(\"academic\", () =>\n  queryContent(\"/academic\").find()\n))),\n  __temp = await __temp,\n  __restore(),\n  __temp\n);\nconst ipb = items.value.filter((item) => item.category === \"ipb\");\nconst usc = items.value.filter((item) => item.category === \"usc\");\n\n// const ipbItems = items.value.filter((item) => item.category === \"ipb\");\n\n// const ipb = ipbData;\n// const usc = items.value.filter((item) => item.category === \"usc\");\n// const ipb = items.value.filter((item) => item.category === \"ipb\");\n// const desk = items.value.filter((item) => item.category === \"desk\");\n// const other = items.value.filter((item) => item.category === \"others\");\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_AppHeader = _resolveComponent(\"AppHeader\")\n  const _component_AppAcademicHeader = _resolveComponent(\"AppAcademicHeader\")\n  const _component_AppAcademicItem = _resolveComponent(\"AppAcademicItem\")\n\n  _push(`<main${_ssrRenderAttrs(_mergeProps({ class: \"min-h-screen\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_AppHeader, {\n    class: \"mb-12\",\n    title: \"Academic courses\",\n    description: description\n  }, null, _parent))\n  _push(`<div class=\"space-y-24\"><ul class=\"space-y-8\">`)\n  _push(_ssrRenderComponent(_component_AppAcademicHeader, { title: \"MS in Business Analytics, USC Marshall School of Business\" }, null, _parent))\n  _push(`<!--[-->`)\n  _ssrRenderList(_unref(usc), (item, id) => {\n    _push(_ssrRenderComponent(_component_AppAcademicItem, {\n      key: id,\n      item: item\n    }, null, _parent))\n  })\n  _push(`<!--]--></ul><ul class=\"space-y-8\">`)\n  _push(_ssrRenderComponent(_component_AppAcademicHeader, { title: \"BSc in Computer Science, IPB University\" }, null, _parent))\n  _push(`<!--[-->`)\n  _ssrRenderList(_unref(ipb), (item, id) => {\n    _push(_ssrRenderComponent(_component_AppAcademicItem, {\n      key: id,\n      item: item\n    }, null, _parent))\n  })\n  _push(`<!--]--></ul></div></main>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/academic.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568545,
+      "end": 1710545568546,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -232,39 +232,39 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568546,
+      "end": 1710545568546,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568546,
+      "end": 1710545568546,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568546,
+      "end": 1710545568546,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568546,
+      "end": 1710545568546,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568546,
+      "end": 1710545568546,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/components/App/Header.vue\";\nimport { default as __nuxt_component_1 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/components/App/AcademicHeader.vue\";\nimport { default as __nuxt_component_2 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/components/App/AcademicItem.vue\";\nimport { useSeoMeta } from '@unhead/vue';\nimport { useAsyncData } from '#app/composables/asyncData';\nimport { queryContent } from '/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/legacy/composables/query';\nimport { withAsyncContext as _withAsyncContext } from 'vue'\nimport { resolveComponent as _resolveComponent, unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nconst description =\n  \"Academic courses I have completed during my academic journey\";\n\nconst _sfc_main = {\n  __name: 'academic',\n  __ssrInlineRender: true,\n  async setup(__props) {\n\nlet __temp, __restore\n\n\nuseSeoMeta({\n  title: \"Academic courses | Muhammad Murtadha Ramadhan\",\n  description,\n});\n\nconst { data: items } = (\n  ([__temp,__restore] = _withAsyncContext(() => useAsyncData(\"academic\", () =>\n  queryContent(\"/academic\").find()\n))),\n  __temp = await __temp,\n  __restore(),\n  __temp\n);\nconst ipb = items.value.filter((item) => item.category === \"ipb\");\nconst usc = items.value.filter((item) => item.category === \"usc\");\n\n// const ipbItems = items.value.filter((item) => item.category === \"ipb\");\n\n// const ipb = ipbData;\n// const usc = items.value.filter((item) => item.category === \"usc\");\n// const ipb = items.value.filter((item) => item.category === \"ipb\");\n// const desk = items.value.filter((item) => item.category === \"desk\");\n// const other = items.value.filter((item) => item.category === \"others\");\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_AppHeader = __nuxt_component_0\n  const _component_AppAcademicHeader = __nuxt_component_1\n  const _component_AppAcademicItem = __nuxt_component_2\n\n  _push(`<main${_ssrRenderAttrs(_mergeProps({ class: \"min-h-screen\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_AppHeader, {\n    class: \"mb-12\",\n    title: \"Academic courses\",\n    description: description\n  }, null, _parent))\n  _push(`<div class=\"space-y-24\"><ul class=\"space-y-8\">`)\n  _push(_ssrRenderComponent(_component_AppAcademicHeader, { title: \"MS in Business Analytics, USC Marshall School of Business\" }, null, _parent))\n  _push(`<!--[-->`)\n  _ssrRenderList(_unref(usc), (item, id) => {\n    _push(_ssrRenderComponent(_component_AppAcademicItem, {\n      key: id,\n      item: item\n    }, null, _parent))\n  })\n  _push(`<!--]--></ul><ul class=\"space-y-8\">`)\n  _push(_ssrRenderComponent(_component_AppAcademicHeader, { title: \"BSc in Computer Science, IPB University\" }, null, _parent))\n  _push(`<!--[-->`)\n  _ssrRenderList(_unref(ipb), (item, id) => {\n    _push(_ssrRenderComponent(_component_AppAcademicItem, {\n      key: id,\n      item: item\n    }, null, _parent))\n  })\n  _push(`<!--]--></ul></div></main>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/academic.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568546,
+      "end": 1710545568546,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -277,20 +277,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568546,
+      "end": 1710545568546,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568546,
+      "end": 1710545568546,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1710543816373,
-      "end": 1710543816373,
+      "start": 1710545568546,
+      "end": 1710545568546,
       "order": "normal"
     }
   ]
