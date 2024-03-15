@@ -77,7 +77,7 @@ const appConfig0 = defineAppConfig({
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "7f89b6b9-eb38-41e6-b150-16e1a0082cc5"
+    "buildId": "defe6fc3-a138-43fe-8007-183f7b1887e7"
   },
   "ui": {
     "primary": "green",
@@ -182,7 +182,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1710545544118,
+      "integrity": 1710545857483,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -4813,26 +4813,19 @@ const components = {
           }
         },
         {
-          "name": "path",
-          "type": "string | undefined",
-          "description": "The path of the content to load from content source.",
+          "name": "tag",
+          "type": "string",
+          "description": "The tag to use for the renderer element if it is used.",
           "declarations": [
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
-                3983,
-                4099
+                3494,
+                3606
               ]
             }
           ],
-          "schema": {
-            "kind": "enum",
-            "type": "string | undefined",
-            "schema": [
-              "undefined",
-              "string"
-            ]
-          }
+          "schema": "string"
         },
         {
           "name": "excerpt",
@@ -4857,19 +4850,26 @@ const components = {
           }
         },
         {
-          "name": "tag",
-          "type": "string",
-          "description": "The tag to use for the renderer element if it is used.",
+          "name": "path",
+          "type": "string | undefined",
+          "description": "The path of the content to load from content source.",
           "declarations": [
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
-                3494,
-                3606
+                3983,
+                4099
               ]
             }
           ],
-          "schema": "string"
+          "schema": {
+            "kind": "enum",
+            "type": "string | undefined",
+            "schema": [
+              "undefined",
+              "string"
+            ]
+          }
         },
         {
           "name": "query",
@@ -12698,19 +12698,19 @@ const components = {
       "events": [],
       "exposed": [
         {
-          "name": "value",
-          "type": "Record<string, any>",
-          "description": "The document to render.",
+          "name": "tag",
+          "type": "string",
+          "description": "The tag to use for the renderer element if it is used.",
           "declarations": [
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
               "range": [
-                781,
-                881
+                1151,
+                1222
               ]
             }
           ],
-          "schema": "Record<string, any>"
+          "schema": "string"
         },
         {
           "name": "excerpt",
@@ -12735,19 +12735,19 @@ const components = {
           }
         },
         {
-          "name": "tag",
-          "type": "string",
-          "description": "The tag to use for the renderer element if it is used.",
+          "name": "value",
+          "type": "Record<string, any>",
+          "description": "The document to render.",
           "declarations": [
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
               "range": [
-                1151,
-                1222
+                781,
+                881
               ]
             }
           ],
-          "schema": "string"
+          "schema": "Record<string, any>"
         }
       ]
     }
@@ -12794,30 +12794,30 @@ const components = {
           "schema": "Record<string, any>"
         },
         {
-          "name": "data",
+          "name": "tag",
           "global": false,
-          "description": "",
+          "description": "Root tag to use for rendering",
           "tags": [],
           "required": false,
-          "type": "Record<string, any> | undefined",
+          "type": "string | undefined",
           "declarations": [
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
-                739,
-                792
+                556,
+                603
               ]
             }
           ],
           "schema": {
             "kind": "enum",
-            "type": "Record<string, any> | undefined",
+            "type": "string | undefined",
             "schema": [
               "undefined",
-              "Record<string, any>"
+              "string"
             ]
           },
-          "default": "{}"
+          "default": "\"div\""
         },
         {
           "name": "excerpt",
@@ -12847,30 +12847,30 @@ const components = {
           "default": "false"
         },
         {
-          "name": "tag",
+          "name": "data",
           "global": false,
-          "description": "Root tag to use for rendering",
+          "description": "",
           "tags": [],
           "required": false,
-          "type": "string | undefined",
+          "type": "Record<string, any> | undefined",
           "declarations": [
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
-                556,
-                603
+                739,
+                792
               ]
             }
           ],
           "schema": {
             "kind": "enum",
-            "type": "string | undefined",
+            "type": "Record<string, any> | undefined",
             "schema": [
               "undefined",
-              "string"
+              "Record<string, any>"
             ]
           },
-          "default": "\"div\""
+          "default": "{}"
         },
         {
           "name": "components",
@@ -12903,6 +12903,43 @@ const components = {
       "events": [],
       "exposed": [
         {
+          "name": "tag",
+          "type": "string",
+          "description": "Root tag to use for rendering",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                556,
+                603
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "excerpt",
+          "type": "boolean",
+          "description": "Render only the excerpt",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                453,
+                505
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "boolean",
+            "schema": [
+              "false",
+              "true"
+            ]
+          }
+        },
+        {
           "name": "data",
           "type": "Record<string, any>",
           "description": "",
@@ -12931,43 +12968,6 @@ const components = {
             }
           ],
           "schema": "Record<string, any>"
-        },
-        {
-          "name": "excerpt",
-          "type": "boolean",
-          "description": "Render only the excerpt",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                453,
-                505
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "boolean",
-            "schema": [
-              "false",
-              "true"
-            ]
-          }
-        },
-        {
-          "name": "tag",
-          "type": "string",
-          "description": "Root tag to use for rendering",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                556,
-                603
-              ]
-            }
-          ],
-          "schema": "string"
         },
         {
           "name": "components",
@@ -19695,7 +19695,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1710545544118.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1710545857483.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
