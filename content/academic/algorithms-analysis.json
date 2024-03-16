@@ -1,6 +1,6 @@
 {
   "name": "Algorithms Analysis",
-  "description": "",
+  "description": "Algorithm design techniques which include criteria for the goodness of an algorithm, function growth rate, recursive functions, divide and conquer techniques, greedy techniques, dynamic programming, backward tracing techniques, as well as an introduction to NP-Complete theory.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

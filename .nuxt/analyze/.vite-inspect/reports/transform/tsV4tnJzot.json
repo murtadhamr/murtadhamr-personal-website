@@ -4,220 +4,220 @@
     {
       "name": "virtual",
       "result": "import { default as academicS9IaUv6q2VMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/academic.vue?macro=true\";\nimport { default as _91slug_93qscuoSgjaqMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/articles/[slug].vue?macro=true\";\nimport { default as indexlNop5B9gXBMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/articles/index.vue?macro=true\";\nimport { default as bookmarksSThNKO10zOMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/bookmarks.vue?macro=true\";\nimport { default as indexx8sUuHnQWDMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/index.vue?macro=true\";\nimport { default as labTMYW2xscuXMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/lab.vue?macro=true\";\nimport { default as projectseslqieydUVMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/projects.vue?macro=true\";\nexport default [\n  {\n    name: academicS9IaUv6q2VMeta?.name ?? \"academic\",\n    path: academicS9IaUv6q2VMeta?.path ?? \"/academic\",\n    meta: academicS9IaUv6q2VMeta || {},\n    alias: academicS9IaUv6q2VMeta?.alias || [],\n    redirect: academicS9IaUv6q2VMeta?.redirect || undefined,\n    component: () => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/academic.vue\").then(m => m.default || m)\n  },\n  {\n    name: _91slug_93qscuoSgjaqMeta?.name ?? \"articles-slug\",\n    path: _91slug_93qscuoSgjaqMeta?.path ?? \"/articles/:slug()\",\n    meta: _91slug_93qscuoSgjaqMeta || {},\n    alias: _91slug_93qscuoSgjaqMeta?.alias || [],\n    redirect: _91slug_93qscuoSgjaqMeta?.redirect || undefined,\n    component: () => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/articles/[slug].vue\").then(m => m.default || m)\n  },\n  {\n    name: indexlNop5B9gXBMeta?.name ?? \"articles\",\n    path: indexlNop5B9gXBMeta?.path ?? \"/articles\",\n    meta: indexlNop5B9gXBMeta || {},\n    alias: indexlNop5B9gXBMeta?.alias || [],\n    redirect: indexlNop5B9gXBMeta?.redirect || undefined,\n    component: () => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/articles/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: bookmarksSThNKO10zOMeta?.name ?? \"bookmarks\",\n    path: bookmarksSThNKO10zOMeta?.path ?? \"/bookmarks\",\n    meta: bookmarksSThNKO10zOMeta || {},\n    alias: bookmarksSThNKO10zOMeta?.alias || [],\n    redirect: bookmarksSThNKO10zOMeta?.redirect || undefined,\n    component: () => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/bookmarks.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexx8sUuHnQWDMeta?.name ?? \"index\",\n    path: indexx8sUuHnQWDMeta?.path ?? \"/\",\n    meta: indexx8sUuHnQWDMeta || {},\n    alias: indexx8sUuHnQWDMeta?.alias || [],\n    redirect: indexx8sUuHnQWDMeta?.redirect || undefined,\n    component: () => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: labTMYW2xscuXMeta?.name ?? \"lab\",\n    path: labTMYW2xscuXMeta?.path ?? \"/lab\",\n    meta: labTMYW2xscuXMeta || {},\n    alias: labTMYW2xscuXMeta?.alias || [],\n    redirect: labTMYW2xscuXMeta?.redirect || undefined,\n    component: () => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/lab.vue\").then(m => m.default || m)\n  },\n  {\n    name: projectseslqieydUVMeta?.name ?? \"projects\",\n    path: projectseslqieydUVMeta?.path ?? \"/projects\",\n    meta: projectseslqieydUVMeta || {},\n    alias: projectseslqieydUVMeta?.alias || [],\n    redirect: projectseslqieydUVMeta?.redirect || undefined,\n    component: () => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/projects.vue\").then(m => m.default || m)\n  }\n]",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "pre"
     },
     {
       "name": "content-slot",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "pre"
     },
     {
       "name": "fontaine-transform",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390048,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390048,
+      "end": 1710623390049,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1710618951864,
-      "end": 1710618951864,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1710618951864,
-      "end": 1710618951865,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1710618951865,
-      "end": 1710618951865,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1710618951865,
-      "end": 1710618951865,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1710618951865,
-      "end": 1710618951865,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1710618951865,
-      "end": 1710618951865,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1710618951865,
-      "end": 1710618951865,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1710618951865,
-      "end": 1710618951865,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as academicS9IaUv6q2VMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/academic.vue?macro=true\";\nimport { default as _91slug_93qscuoSgjaqMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/articles/[slug].vue?macro=true\";\nimport { default as indexlNop5B9gXBMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/articles/index.vue?macro=true\";\nimport { default as bookmarksSThNKO10zOMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/bookmarks.vue?macro=true\";\nimport { default as indexx8sUuHnQWDMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/index.vue?macro=true\";\nimport { default as labTMYW2xscuXMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/lab.vue?macro=true\";\nimport { default as projectseslqieydUVMeta } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/projects.vue?macro=true\";\nexport default [\n  {\n    name: academicS9IaUv6q2VMeta?.name ?? \"academic\",\n    path: academicS9IaUv6q2VMeta?.path ?? \"/academic\",\n    meta: academicS9IaUv6q2VMeta || {},\n    alias: academicS9IaUv6q2VMeta?.alias || [],\n    redirect: academicS9IaUv6q2VMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/academic.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: _91slug_93qscuoSgjaqMeta?.name ?? \"articles-slug\",\n    path: _91slug_93qscuoSgjaqMeta?.path ?? \"/articles/:slug()\",\n    meta: _91slug_93qscuoSgjaqMeta || {},\n    alias: _91slug_93qscuoSgjaqMeta?.alias || [],\n    redirect: _91slug_93qscuoSgjaqMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/articles/[slug].vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexlNop5B9gXBMeta?.name ?? \"articles\",\n    path: indexlNop5B9gXBMeta?.path ?? \"/articles\",\n    meta: indexlNop5B9gXBMeta || {},\n    alias: indexlNop5B9gXBMeta?.alias || [],\n    redirect: indexlNop5B9gXBMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/articles/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: bookmarksSThNKO10zOMeta?.name ?? \"bookmarks\",\n    path: bookmarksSThNKO10zOMeta?.path ?? \"/bookmarks\",\n    meta: bookmarksSThNKO10zOMeta || {},\n    alias: bookmarksSThNKO10zOMeta?.alias || [],\n    redirect: bookmarksSThNKO10zOMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/bookmarks.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexx8sUuHnQWDMeta?.name ?? \"index\",\n    path: indexx8sUuHnQWDMeta?.path ?? \"/\",\n    meta: indexx8sUuHnQWDMeta || {},\n    alias: indexx8sUuHnQWDMeta?.alias || [],\n    redirect: indexx8sUuHnQWDMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: labTMYW2xscuXMeta?.name ?? \"lab\",\n    path: labTMYW2xscuXMeta?.path ?? \"/lab\",\n    meta: labTMYW2xscuXMeta || {},\n    alias: labTMYW2xscuXMeta?.alias || [],\n    redirect: labTMYW2xscuXMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/lab.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: projectseslqieydUVMeta?.name ?? \"projects\",\n    path: projectseslqieydUVMeta?.path ?? \"/projects\",\n    meta: projectseslqieydUVMeta || {},\n    alias: projectseslqieydUVMeta?.alias || [],\n    redirect: projectseslqieydUVMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/murtadha.ramadhan/Documents/personal-website-3/pages/projects.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  }\n]",
-      "start": 1710618951865,
-      "end": 1710618951865,
+      "start": 1710623390049,
+      "end": 1710623390049,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1710618951865,
-      "end": 1710618951865,
+      "start": 1710623390049,
+      "end": 1710623390050,
       "order": "normal"
     }
   ]

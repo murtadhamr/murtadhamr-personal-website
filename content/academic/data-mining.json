@@ -1,6 +1,6 @@
 {
   "name": "Data Mining",
-  "description": "",
+  "description": "Understanding of data mining, data and data exploration, data preprocessing, basic techniques in clustering and outlier detection, basic classification techniques, basic techniques in association rules mining, understanding data warehouse and online analytical processing (OLAP), introduction to data mining techniques in other data types including spatial, spatio-temporal, sequence, web and text data.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

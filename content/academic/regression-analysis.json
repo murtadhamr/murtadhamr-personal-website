@@ -1,6 +1,6 @@
 {
   "name": "Regression Analysis",
-  "description": "",
+  "description": "Concept of relationship between variables (qualitative vs quantitative, stochastic vs deterministic), linear relationship between two variables (correlation vs regression), simple linear regression models (parameter estimation, interpretation of regression coefficients, hypothesis testing, prediction, and coefficient of determination), checking assumptions ( residual plot, normal plot), regression without intercept, regression with a matrix approach, multiple regression, polynomial regression, model testing (including general linear hypothesis), sequential test, partial test, regression with dummy variables, and procedures for selecting the best regression model.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

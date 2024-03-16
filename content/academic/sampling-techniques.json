@@ -1,6 +1,6 @@
 {
   "name": "Sampling Techniques",
-  "description": "",
+  "description": "Several sampling techniques and parameter estimation. Chance sampling includes simple random sampling, stratified random sampling, systematic random sampling, clustered random sampling and two-stage clustered random sampling.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

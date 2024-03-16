@@ -1,6 +1,6 @@
 {
   "name": "Data Communication and Computer Network",
-  "description": "",
+  "description": "Computer networks and their services, switching and routing techniques, Internet applications (web, mail, FTP, proxy, DNS), types of services, socket programming, basics of analog and digital communication systems, transmission systems, synchronous communication / asynchronous, symmetric / asymmetric communication, network architecture and protocols, OSI reference model, LAN standards, peer-to-peer, TCP/IP, security, advanced network architecture, as well as the basics of SNMP-based network management and QoS.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

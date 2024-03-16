@@ -1,6 +1,6 @@
 {
   "name": "Statistics",
-  "description": "",
+  "description": "Basic principles of statistical methods and some simple analysis methods. The topics covered in this course are statistical descriptions, probability, principles of estimating and testing hypotheses, estimating and testing hypotheses regarding proportions, estimating and testing hypotheses regarding mean values, correlation, simple linear regression, and contingency tables.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

@@ -1,6 +1,6 @@
 {
   "name": "Operating Systems",
-  "description": "",
+  "description": "Basic elements of computer systems and instruction execution, operating system structure, process management, multithreaded programming, process scheduling, synchronization, deadlock problems and their handling, memory management which includes swap memory, paging, segmentation, and virtual memory, storage management, file systems, and I/O management.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

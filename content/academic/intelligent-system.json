@@ -1,6 +1,6 @@
 {
   "name": "Intelligent System",
-  "description": "",
+  "description": "Machine learning concept with an algorithmic approach. The concepts discussed include computational intelligence paradigms (artificial neural networks: MLP, Radial Basis, SOM and LVQ; fuzzy systems; colony and evolutionary intelligence-based optimization), transformation-based classification techniques and constrained optimization (support vector machine), and prediction techniques using Monte Carlo simulation.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

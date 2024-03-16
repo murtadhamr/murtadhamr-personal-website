@@ -77,7 +77,7 @@ const appConfig0 = defineAppConfig({
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "b1b22594-6eb3-49b4-bbc2-e953732881f2"
+    "buildId": "ba75c5f8-ff8f-4b52-b0a0-3802ff6be8e8"
   },
   "ui": {
     "primary": "green",
@@ -182,7 +182,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1710618945307,
+      "integrity": 1710623383583,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -3723,6 +3723,16 @@ const components = {
                                     ]
                                   }
                                 },
+                                "title": {
+                                  "name": "title",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -3745,16 +3755,6 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
-                                "title": {
-                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -5612,6 +5612,16 @@ const components = {
                                     ]
                                   }
                                 },
+                                "title": {
+                                  "name": "title",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -5634,16 +5644,6 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
-                                "title": {
-                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -6663,6 +6663,16 @@ const components = {
                                     ]
                                   }
                                 },
+                                "title": {
+                                  "name": "title",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -6685,16 +6695,6 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
-                                "title": {
-                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -8495,6 +8495,16 @@ const components = {
                                     ]
                                   }
                                 },
+                                "title": {
+                                  "name": "title",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -8517,16 +8527,6 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
-                                "title": {
-                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -9498,6 +9498,16 @@ const components = {
                                     ]
                                   }
                                 },
+                                "title": {
+                                  "name": "title",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -9520,16 +9530,6 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
-                                "title": {
-                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -10695,6 +10695,16 @@ const components = {
                                     ]
                                   }
                                 },
+                                "title": {
+                                  "name": "title",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -10717,16 +10727,6 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
-                                "title": {
-                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -12810,9 +12810,9 @@ const components = {
           "default": "false"
         },
         {
-          "name": "components",
+          "name": "data",
           "global": false,
-          "description": "The map of custom components to use for rendering.",
+          "description": "",
           "tags": [],
           "required": false,
           "type": "Record<string, any> | undefined",
@@ -12820,8 +12820,8 @@ const components = {
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
-                675,
-                734
+                739,
+                792
               ]
             }
           ],
@@ -12836,9 +12836,9 @@ const components = {
           "default": "{}"
         },
         {
-          "name": "data",
+          "name": "components",
           "global": false,
-          "description": "",
+          "description": "The map of custom components to use for rendering.",
           "tags": [],
           "required": false,
           "type": "Record<string, any> | undefined",
@@ -12846,8 +12846,8 @@ const components = {
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
-                739,
-                792
+                675,
+                734
               ]
             }
           ],
@@ -12903,6 +12903,21 @@ const components = {
           }
         },
         {
+          "name": "data",
+          "type": "Record<string, any>",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                739,
+                792
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
+        },
+        {
           "name": "value",
           "type": "Record<string, any>",
           "description": "Content to render",
@@ -12927,21 +12942,6 @@ const components = {
               "range": [
                 675,
                 734
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
-        },
-        {
-          "name": "data",
-          "type": "Record<string, any>",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                739,
-                792
               ]
             }
           ],
@@ -19658,7 +19658,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1710618945307.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1710623383583.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _nOp45J, lazy: false, middleware: false, method: "get" },

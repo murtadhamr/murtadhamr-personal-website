@@ -1,6 +1,6 @@
 {
   "name": "Design of Experiments",
-  "description": "",
+  "description": "Introduction to experimental design and several standard experimental designs, single factor experiments in Completely Randomized Designs, Completely Randomized Group Designs, Latin Square Designs, comparisons between treatments, assumption testing, factored experiments, split plot designs and split group designs, as well as analysis of variance.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

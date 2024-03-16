@@ -1,6 +1,6 @@
 {
   "name": "Bioinformatics",
-  "description": "",
+  "description": "The role of DNA and protein sequence information in understanding processes biology, resources (databases) and applications that are widely used in the field of bioinformatics, algorithms used to solve problems in the field of bioinformatics, especially those related to DNA and protein sequences, such as sequence alignment problems and their data structures, algorithms for phylogenetic trees, and an introduction to the application of machine learning to bioinformatics.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""

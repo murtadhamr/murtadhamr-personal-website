@@ -1,6 +1,6 @@
 {
   "name": "Digital Circuit",
-  "description": "",
+  "description": "Number systems, forms of binary code, understanding binary logic, forms and workings of logic gates, Huntington's Postulates and basic theory of Boolean Algebra, simplification of Boolean functions using basic theory of Boolean Algebra and Karnaugh Map (K-Map), types of integrated circuits , combinational circuits, sequential circuits, and how counters and storage elements (registers) work.",
   "url": "",
   "category": "ipb",
   "thumbnail": ""
