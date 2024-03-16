@@ -246,7 +246,7 @@ const _inlineRuntimeConfig = {
           "yaml"
         ]
       },
-      "wsUrl": "ws://localhost:4007/",
+      "wsUrl": "ws://localhost:4009/",
       "documentDriven": false,
       "host": "",
       "trailingSlash": false,
@@ -258,6 +258,15 @@ const _inlineRuntimeConfig = {
           1
         ]
       }
+    },
+    "gtag": {
+      "enabled": true,
+      "id": "G-E3B9XP75E7",
+      "initCommands": [],
+      "config": {},
+      "tags": [],
+      "loadingStrategy": "defer",
+      "url": "https://www.googletagmanager.com/gtag/js"
     }
   },
   "content": {

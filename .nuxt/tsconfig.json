@@ -129,6 +129,7 @@
     "../node_modules/@nuxt/content/runtime",
     "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/@vueuse/nuxt/runtime",
+    "../node_modules/nuxt-gtag/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
     ".."
@@ -147,6 +148,7 @@
     "../node_modules/@nuxt/content/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@vueuse/nuxt/runtime/server",
+    "../node_modules/nuxt-gtag/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "../dist",

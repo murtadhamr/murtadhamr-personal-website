@@ -8,9 +8,9 @@ const styles = {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue": () => import('./_nuxt/ProseCode-styles.BaOCvZyF.mjs').then(interopDefault),
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue": () => import('./_nuxt/ProsePre-styles.COD05knw.mjs').then(interopDefault),
   "pages/articles/[slug].vue": () => import('./_nuxt/_slug_-styles.CK-vFgau.mjs').then(interopDefault),
+  "node_modules/nuxt-icon/dist/runtime/IconCSS.vue": () => import('./_nuxt/IconCSS-styles.CQL8WjFP.mjs').then(interopDefault),
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": () => import('./_nuxt/error-404-styles.DFsHqWlc.mjs').then(interopDefault),
-  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": () => import('./_nuxt/error-500-styles.CMirSWuO.mjs').then(interopDefault),
-  "node_modules/nuxt-icon/dist/runtime/IconCSS.vue": () => import('./_nuxt/IconCSS-styles.CQL8WjFP.mjs').then(interopDefault)
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": () => import('./_nuxt/error-500-styles.CMirSWuO.mjs').then(interopDefault)
 };
 
 export { styles as default };

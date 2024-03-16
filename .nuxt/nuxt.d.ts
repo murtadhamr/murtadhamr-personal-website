@@ -7,6 +7,7 @@
 /// <reference types="@nuxt/content" />
 /// <reference types="@nuxthq/studio" />
 /// <reference types="@vueuse/nuxt" />
+/// <reference types="nuxt-gtag" />
 /// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference types="nuxt" />

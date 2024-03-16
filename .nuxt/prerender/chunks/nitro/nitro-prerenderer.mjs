@@ -77,7 +77,7 @@ const appConfig0 = defineAppConfig({
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "45b672e5-70b4-4bf5-b644-8ed7a455a29e"
+    "buildId": "85cb3fc8-8a70-473a-8da6-32ed2c0f29d6"
   },
   "ui": {
     "primary": "green",
@@ -182,7 +182,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1710546142923,
+      "integrity": 1710548643879,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -255,6 +255,15 @@ const _inlineRuntimeConfig = {
     },
     "studio": {
       "apiURL": "https://api.nuxt.studio"
+    },
+    "gtag": {
+      "enabled": true,
+      "id": "G-E3B9XP75E7",
+      "initCommands": [],
+      "config": {},
+      "tags": [],
+      "loadingStrategy": "defer",
+      "url": "https://www.googletagmanager.com/gtag/js"
     }
   },
   "content": {
@@ -12847,9 +12856,9 @@ const components = {
           "default": "false"
         },
         {
-          "name": "data",
+          "name": "components",
           "global": false,
-          "description": "",
+          "description": "The map of custom components to use for rendering.",
           "tags": [],
           "required": false,
           "type": "Record<string, any> | undefined",
@@ -12857,8 +12866,8 @@ const components = {
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
-                739,
-                792
+                675,
+                734
               ]
             }
           ],
@@ -12873,9 +12882,9 @@ const components = {
           "default": "{}"
         },
         {
-          "name": "components",
+          "name": "data",
           "global": false,
-          "description": "The map of custom components to use for rendering.",
+          "description": "",
           "tags": [],
           "required": false,
           "type": "Record<string, any> | undefined",
@@ -12883,8 +12892,8 @@ const components = {
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
-                675,
-                734
+                739,
+                792
               ]
             }
           ],
@@ -12940,21 +12949,6 @@ const components = {
           }
         },
         {
-          "name": "data",
-          "type": "Record<string, any>",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                739,
-                792
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
-        },
-        {
           "name": "value",
           "type": "Record<string, any>",
           "description": "Content to render",
@@ -12979,6 +12973,21 @@ const components = {
               "range": [
                 675,
                 734
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
+        },
+        {
+          "name": "data",
+          "type": "Record<string, any>",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                739,
+                792
               ]
             }
           ],
@@ -19695,7 +19704,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1710546142923.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1710548643879.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _nOp45J, lazy: false, middleware: false, method: "get" },

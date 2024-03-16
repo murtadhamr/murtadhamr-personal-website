@@ -1663,6 +1663,13 @@
     pathe "^1.0.0"
     ufo "^1.0.0"
 
+"@nuxtjs/google-analytics@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.4.0.tgz#3bb9f398a05cc23340d1f423f8d8653dc4114f46"
+  integrity sha512-rDQTwHIjyjVrx8GywHPuWykJ3jRFGaHl5Iqji/y8tQWUc0yGEeHxOoR0yimzxnTS1Ph2/PubQYpgnVeEPEdL/A==
+  dependencies:
+    vue-analytics "^5.22.1"
+
 "@nuxtjs/google-fonts@3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/google-fonts/-/google-fonts-3.1.1.tgz#be4f84a6b133b0d628e6fdf93e6dc75a2eed50ff"
@@ -6905,6 +6912,16 @@ nuxt-config-schema@^0.4.6:
     pathe "^1.0.0"
     untyped "^1.3.2"
 
+nuxt-gtag@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-2.0.5.tgz#0a7afb8a709a151c8d5dadb8dc0f3235caa5056b"
+  integrity sha512-RX/52eXufjly/Y7PJKRLGLBQhI73SnmzcLoI4pjEJIVsEVpIXJLkAwHtKY3HvU8KiV0ai4UE3Cn1xB6ncoiFaA==
+  dependencies:
+    "@nuxt/kit" "^3.10.3"
+    defu "^6.1.4"
+    pathe "^1.1.2"
+    ufo "^1.4.0"
+
 nuxt-icon@0.6.7, nuxt-icon@^0.6.7:
   version "0.6.7"
   resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.6.7.tgz#48a4896f362f88682d3074d50625ddee8d9c4d03"
@@ -9562,6 +9579,11 @@ vscode-uri@^3.0.2:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/vscode-uri/-/vscode-uri-3.0.8.tgz#1770938d3e72588659a172d0fd4642780083ff9f"
   integrity sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==
+
+vue-analytics@^5.22.1:
+  version "5.22.1"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.22.1.tgz#9d6b32da56daee1b9dfb23a267b50349a03f710f"
+  integrity sha512-HPKQMN7gfcUqS5SxoO0VxqLRRSPkG1H1FqglsHccz6BatBatNtm/Vyy8brApktZxNCfnAkrSVDpxg3/FNDeOgQ==
 
 vue-bundle-renderer@^2.0.0:
   version "2.0.0"
