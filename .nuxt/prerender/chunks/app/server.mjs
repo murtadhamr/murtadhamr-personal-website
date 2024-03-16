@@ -633,7 +633,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-zuDvGwry.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-CE6rn2du.mjs').then((m) => m.default || m)
   },
   {
     name: "bookmarks",
@@ -649,7 +649,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-QwplxrPT.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-RnZH0Drp.mjs').then((m) => m.default || m)
   },
   {
     name: "lab",
@@ -800,7 +800,7 @@ const cfg0 = defineAppConfig({
 });
 const inlineConfig = {
   "nuxt": {
-    "buildId": "85cb3fc8-8a70-473a-8da6-32ed2c0f29d6"
+    "buildId": "b1b22594-6eb3-49b4-bbc2-e953732881f2"
   },
   "ui": {
     "primary": "green",
@@ -3680,11 +3680,11 @@ const _sfc_main$5 = {
         path: "/projects"
         // icon: "solar:folder-with-files-outline",
       },
-      // {
-      //   name: "Blog",
-      //   path: "/articles",
-      //   // icon: "solar:document-add-outline",
-      // },
+      {
+        name: "Blog",
+        path: "/articles"
+        // icon: "solar:document-add-outline",
+      },
       // { 
       //   name: "Lab", 
       //   path: "/lab", 

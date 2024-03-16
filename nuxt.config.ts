@@ -10,10 +10,13 @@ export default defineNuxtConfig({
     "@nuxthq/studio",
     "@vueuse/nuxt",
     "nuxt-gtag",
+    "@nuxtjs/mdc",
   ],
+
   ui: {
     icons: ["heroicons", "lucide"],
   },
+
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
@@ -26,11 +29,13 @@ export default defineNuxtConfig({
       },
     },
   },
+
   content: {
     highlight: {
       theme: "github-dark",
     },
   },
+
   googleFonts: {
     display: "swap",
     families: {
@@ -41,4 +46,12 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-E3B9XP75E7'
   },
+
+  mdc: {
+    highlight: {
+      langs: ['javascript', 'html', 'css', 'python'], // Add 'python' to the list of supported languages
+    },
+  },
+
+
 });

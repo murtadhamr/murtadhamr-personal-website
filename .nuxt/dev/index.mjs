@@ -228,25 +228,9 @@ const _inlineRuntimeConfig = {
         "tr": "prose-tr"
       },
       "highlight": {
-        "theme": "github-dark",
-        "highlighter": "shiki",
-        "langs": [
-          "js",
-          "jsx",
-          "json",
-          "ts",
-          "tsx",
-          "vue",
-          "css",
-          "html",
-          "vue",
-          "bash",
-          "md",
-          "mdc",
-          "yaml"
-        ]
+        "theme": "github-dark"
       },
-      "wsUrl": "ws://localhost:4009/",
+      "wsUrl": "ws://localhost:4001/",
       "documentDriven": false,
       "host": "",
       "trailingSlash": false,
@@ -295,23 +279,7 @@ const _inlineRuntimeConfig = {
     "locales": [],
     "defaultLocale": "",
     "highlight": {
-      "theme": "github-dark",
-      "highlighter": "shiki",
-      "langs": [
-        "js",
-        "jsx",
-        "json",
-        "ts",
-        "tsx",
-        "vue",
-        "css",
-        "html",
-        "vue",
-        "bash",
-        "md",
-        "mdc",
-        "yaml"
-      ]
+      "theme": "github-dark"
     },
     "markdown": {
       "tags": {
@@ -1282,24 +1250,10 @@ function createShikiHighlighter({
 const bundledLangs = {
 "javascript": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/javascript.mjs'),
 "js": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/javascript.mjs'),
-"jsx": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/jsx.mjs'),
-"json": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/json.mjs'),
-"typescript": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/typescript.mjs'),
-"ts": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/typescript.mjs'),
-"tsx": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/tsx.mjs'),
-"vue": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/vue.mjs'),
-"css": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/css.mjs'),
 "html": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/html.mjs'),
-"shellscript": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"bash": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"sh": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"shell": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"zsh": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"markdown": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/markdown.mjs'),
-"md": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/markdown.mjs'),
-"mdc": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/mdc.mjs'),
-"yaml": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/yaml.mjs'),
-"yml": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/yaml.mjs'),
+"css": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/css.mjs'),
+"python": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/python.mjs'),
+"py": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/python.mjs'),
 };
 const bundledThemes = {
 "github-dark": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/themes/github-dark.mjs').then(r => r.default),

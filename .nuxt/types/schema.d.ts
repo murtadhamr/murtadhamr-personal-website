@@ -63,10 +63,6 @@ declare module 'nuxt/schema' {
 
       highlight: {
          theme: string,
-
-         highlighter: string,
-
-         langs: Array<string>,
       },
 
       markdown: {
@@ -474,10 +470,6 @@ declare module 'nuxt/schema' {
 
       highlight: {
          theme: string,
-
-         highlighter: string,
-
-         langs: Array<string>,
       },
 
       wsUrl: string,

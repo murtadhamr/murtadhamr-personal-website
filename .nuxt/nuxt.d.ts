@@ -8,6 +8,7 @@
 /// <reference types="@nuxthq/studio" />
 /// <reference types="@vueuse/nuxt" />
 /// <reference types="nuxt-gtag" />
+/// <reference types="@nuxtjs/mdc" />
 /// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference types="nuxt" />

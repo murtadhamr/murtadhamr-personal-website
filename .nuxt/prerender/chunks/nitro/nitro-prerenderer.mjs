@@ -77,7 +77,7 @@ const appConfig0 = defineAppConfig({
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "85cb3fc8-8a70-473a-8da6-32ed2c0f29d6"
+    "buildId": "b1b22594-6eb3-49b4-bbc2-e953732881f2"
   },
   "ui": {
     "primary": "green",
@@ -182,7 +182,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1710548643879,
+      "integrity": 1710618945307,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -222,23 +222,7 @@ const _inlineRuntimeConfig = {
         "tr": "prose-tr"
       },
       "highlight": {
-        "theme": "github-dark",
-        "highlighter": "shiki",
-        "langs": [
-          "js",
-          "jsx",
-          "json",
-          "ts",
-          "tsx",
-          "vue",
-          "css",
-          "html",
-          "vue",
-          "bash",
-          "md",
-          "mdc",
-          "yaml"
-        ]
+        "theme": "github-dark"
       },
       "wsUrl": "",
       "documentDriven": false,
@@ -292,23 +276,7 @@ const _inlineRuntimeConfig = {
     "locales": [],
     "defaultLocale": "",
     "highlight": {
-      "theme": "github-dark",
-      "highlighter": "shiki",
-      "langs": [
-        "js",
-        "jsx",
-        "json",
-        "ts",
-        "tsx",
-        "vue",
-        "css",
-        "html",
-        "vue",
-        "bash",
-        "md",
-        "mdc",
-        "yaml"
-      ]
+      "theme": "github-dark"
     },
     "markdown": {
       "tags": {
@@ -1331,24 +1299,10 @@ function createShikiHighlighter({
 const bundledLangs = {
 "javascript": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/javascript.mjs'),
 "js": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/javascript.mjs'),
-"jsx": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/jsx.mjs'),
-"json": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/json.mjs'),
-"typescript": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/typescript.mjs'),
-"ts": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/typescript.mjs'),
-"tsx": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/tsx.mjs'),
-"vue": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/vue.mjs'),
-"css": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/css.mjs'),
 "html": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/html.mjs'),
-"shellscript": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"bash": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"sh": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"shell": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"zsh": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/shellscript.mjs'),
-"markdown": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/markdown.mjs'),
-"md": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/markdown.mjs'),
-"mdc": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/mdc.mjs'),
-"yaml": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/yaml.mjs'),
-"yml": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/yaml.mjs'),
+"css": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/css.mjs'),
+"python": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/python.mjs'),
+"py": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/langs/python.mjs'),
 };
 const bundledThemes = {
 "github-dark": () => import('file:///Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/shiki/dist/themes/github-dark.mjs').then(r => r.default),
@@ -3769,16 +3723,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -3801,6 +3745,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -5658,16 +5612,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -5690,6 +5634,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -6709,16 +6663,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -6741,6 +6685,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -8541,16 +8495,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -8573,6 +8517,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -9544,16 +9498,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -9576,6 +9520,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -10741,16 +10695,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -10773,6 +10717,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -19704,7 +19658,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1710548643879.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1710618945307.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
