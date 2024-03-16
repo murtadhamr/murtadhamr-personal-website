@@ -3,5 +3,8 @@
   "url": "",
   "description": "Led strategic initiative along with business, product, and finance teams to increase logistics business gross profit by 12% through shipping price revamp and cost optimization in less profitable shipping routes",
   "thumbnail": "/projects/profitability.png",
-  "status": ""
+  "status": "",
+  "tech1": "P&L Analysis",
+  "tech2": "Google BigQuery",
+  "tech3": "Spreadsheet"
 }

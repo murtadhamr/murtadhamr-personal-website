@@ -3,5 +3,8 @@
   "url": "",
   "description": "Composed the new NBA team proposal through statistical analysis and linear optimization process for final project of Data Visualization and Statistical Computing class",
   "thumbnail": "/projects/nba.png",
-  "status": ""
+  "status": "",
+  "tech1": "Python",
+  "tech2": "Gurobi (Linear Programming)", 
+  "tech3": "Plotly (Data Visualization)"
 }
