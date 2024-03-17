@@ -2699,65 +2699,6 @@ export default {
           }
         },
         {
-          "name": "tag",
-          "type": "string",
-          "description": "The tag to use for the renderer element if it is used.",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3494,
-                3606
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "excerpt",
-          "type": "boolean",
-          "description": "Whether or not to render the excerpt.",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3714,
-                3803
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "boolean",
-            "schema": [
-              "false",
-              "true"
-            ]
-          }
-        },
-        {
-          "name": "path",
-          "type": "string | undefined",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3983,
-                4099
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "string | undefined",
-            "schema": [
-              "undefined",
-              "string"
-            ]
-          }
-        },
-        {
           "name": "query",
           "type": "QueryBuilderParams | undefined",
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
@@ -3735,6 +3676,65 @@ export default {
                   }
                 }
               }
+            ]
+          }
+        },
+        {
+          "name": "tag",
+          "type": "string",
+          "description": "The tag to use for the renderer element if it is used.",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3494,
+                3606
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "excerpt",
+          "type": "boolean",
+          "description": "Whether or not to render the excerpt.",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3714,
+                3803
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "boolean",
+            "schema": [
+              "false",
+              "true"
+            ]
+          }
+        },
+        {
+          "name": "path",
+          "type": "string | undefined",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3983,
+                4099
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "string | undefined",
+            "schema": [
+              "undefined",
+              "string"
             ]
           }
         },
@@ -5619,28 +5619,6 @@ export default {
           }
         },
         {
-          "name": "path",
-          "type": "string | undefined",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
-              "range": [
-                1975,
-                2091
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "string | undefined",
-            "schema": [
-              "undefined",
-              "string"
-            ]
-          }
-        },
-        {
           "name": "query",
           "type": "QueryBuilderParams | undefined",
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
@@ -6618,6 +6596,28 @@ export default {
                   }
                 }
               }
+            ]
+          }
+        },
+        {
+          "name": "path",
+          "type": "string | undefined",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "range": [
+                1975,
+                2091
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "string | undefined",
+            "schema": [
+              "undefined",
+              "string"
             ]
           }
         }
@@ -10733,9 +10733,9 @@ export default {
           "default": "false"
         },
         {
-          "name": "components",
+          "name": "data",
           "global": false,
-          "description": "The map of custom components to use for rendering.",
+          "description": "",
           "tags": [],
           "required": false,
           "type": "Record<string, any> | undefined",
@@ -10743,8 +10743,8 @@ export default {
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
-                675,
-                734
+                739,
+                792
               ]
             }
           ],
@@ -10759,9 +10759,9 @@ export default {
           "default": "{}"
         },
         {
-          "name": "data",
+          "name": "components",
           "global": false,
-          "description": "",
+          "description": "The map of custom components to use for rendering.",
           "tags": [],
           "required": false,
           "type": "Record<string, any> | undefined",
@@ -10769,8 +10769,8 @@ export default {
             {
               "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
-                739,
-                792
+                675,
+                734
               ]
             }
           ],
@@ -10826,6 +10826,21 @@ export default {
           }
         },
         {
+          "name": "data",
+          "type": "Record<string, any>",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                739,
+                792
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
+        },
+        {
           "name": "value",
           "type": "Record<string, any>",
           "description": "Content to render",
@@ -10850,21 +10865,6 @@ export default {
               "range": [
                 675,
                 734
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
-        },
-        {
-          "name": "data",
-          "type": "Record<string, any>",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                739,
-                792
               ]
             }
           ],

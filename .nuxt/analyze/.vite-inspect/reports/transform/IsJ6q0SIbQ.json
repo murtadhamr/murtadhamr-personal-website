@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\n  <div>\n    <h2 class=\"uppercase text-xs font-semibold text-gray-400 mb-6\">\n      EDUCATION\n    </h2>\n    <div class=\"space-y-4\">\n      <AppProjectCard\n        v-for=\"(project, id) in educations\"\n        :key=\"id\"\n        :project=\"project\"\n      />\n    </div>\n    <!-- <div class=\"flex items-center justify-center mt-6 text-sm\">\n      <UButton\n        label=\"All Projects &rarr;\"\n        to=\"/projects\"\n        variant=\"link\"\n        color=\"gray\"\n      />\n    </div> -->\n  </div>\n</template>\n\n<script lang=\"ts\" setup>\nconst { data: educations } = await useAsyncData(\"education-home\", () =>\n  queryContent(\"/education\").find()\n);\n</script>\n",
-      "start": 1710626459572,
-      "end": 1710626459660,
+      "start": 1710658133833,
+      "end": 1710658133938,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1710626459660,
-      "end": 1710626459660,
+      "start": 1710658133938,
+      "end": 1710658133938,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1710626459660,
-      "end": 1710626459660,
+      "start": 1710658133938,
+      "end": 1710658133938,
       "order": "pre"
     },
     {
       "name": "content-slot",
-      "start": 1710626459660,
-      "end": 1710626459660,
+      "start": 1710658133938,
+      "end": 1710658133938,
       "order": "pre"
     },
     {
       "name": "fontaine-transform",
-      "start": 1710626459660,
-      "end": 1710626459660,
+      "start": 1710658133938,
+      "end": 1710658133938,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1710626459660,
-      "end": 1710626459660,
+      "start": 1710658133938,
+      "end": 1710658133938,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1710626459660,
-      "end": 1710626459660,
+      "start": 1710658133938,
+      "end": 1710658133938,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1710626459660,
-      "end": 1710626459660,
+      "start": 1710658133938,
+      "end": 1710658133938,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1710626459660,
-      "end": 1710626459660,
+      "start": 1710658133938,
+      "end": 1710658133938,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1710626459660,
-      "end": 1710626459660,
+      "start": 1710658133938,
+      "end": 1710658133938,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import _sfc_main from \"/Users/murtadha.ramadhan/Documents/personal-website-3/components/Home/Education.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/murtadha.ramadhan/Documents/personal-website-3/components/Home/Education.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n",
-      "start": 1710626459660,
-      "end": 1710626459920,
+      "start": 1710658133938,
+      "end": 1710658134309,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -74,152 +74,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1710626459920,
-      "end": 1710626459920,
+      "start": 1710658134309,
+      "end": 1710658134309,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1710626459920,
-      "end": 1710626459921,
+      "start": 1710658134309,
+      "end": 1710658134310,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1710626459921,
-      "end": 1710626459921,
+      "start": 1710658134310,
+      "end": 1710658134312,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1710626459921,
-      "end": 1710626459921,
+      "start": 1710658134312,
+      "end": 1710658134312,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1710626459921,
-      "end": 1710626459921,
+      "start": 1710658134312,
+      "end": 1710658134312,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1710626459921,
-      "end": 1710626459921,
+      "start": 1710658134312,
+      "end": 1710658134312,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1710626459921,
-      "end": 1710626459921,
+      "start": 1710658134312,
+      "end": 1710658134312,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1710626459921,
-      "end": 1710626459921,
+      "start": 1710658134312,
+      "end": 1710658134312,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1710626459921,
-      "end": 1710626459921,
+      "start": 1710658134312,
+      "end": 1710658134312,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1710626459921,
-      "end": 1710626459921,
+      "start": 1710658134312,
+      "end": 1710658134312,
       "order": "normal"
     }
   ]

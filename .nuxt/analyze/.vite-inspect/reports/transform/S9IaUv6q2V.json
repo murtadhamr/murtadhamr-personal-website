@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\n  <main class=\"min-h-screen\">\n    <AppHeader\n      class=\"mb-12\"\n      title=\"Academic courses\"\n      :description=\"description\"\n    />\n    <div class=\"space-y-24\">\n      <ul class=\"space-y-8\">\n        <AppAcademicHeader title=\"MS in Business Analytics, USC Marshall School of Business\" />\n        <AppAcademicItem v-for=\"(item, id) in usc\" :key=\"id\" :item=\"item\" />\n      </ul>\n      <ul class=\"space-y-8\">\n        <AppAcademicHeader title=\"BSc in Computer Science, IPB University\" />\n        <AppAcademicItem v-for=\"(item, id) in ipb\" :key=\"id\" :item=\"item\" />\n      </ul>\n    </div>\n  </main>\n</template>\n\n<script setup>\n\nconst description =\n  \"Academic courses I have completed during my academic journey\";\nuseSeoMeta({\n  title: \"Academic courses | Muhammad Murtadha Ramadhan\",\n  description,\n});\n\nconst { data: items } = await useAsyncData(\"academic\", () =>\n  queryContent(\"/academic\").find()\n);\nconst ipb = items.value.filter((item) => item.category === \"ipb\");\nconst usc = items.value.filter((item) => item.category === \"usc\");\n\n// const ipbItems = items.value.filter((item) => item.category === \"ipb\");\n\n// const ipb = ipbData;\n// const usc = items.value.filter((item) => item.category === \"usc\");\n// const ipb = items.value.filter((item) => item.category === \"ipb\");\n// const desk = items.value.filter((item) => item.category === \"desk\");\n// const other = items.value.filter((item) => item.category === \"others\");\n</script>\n",
-      "start": 1710626459403,
-      "end": 1710626459425,
+      "start": 1710658133553,
+      "end": 1710658133602,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "pre"
     },
     {
       "name": "content-slot",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "pre"
     },
     {
       "name": "fontaine-transform",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { withAsyncContext as _withAsyncContext } from 'vue'\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createBlock as _createBlock, createElementVNode as _createElementVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"min-h-screen\" }\nconst _hoisted_2 = { class: \"space-y-24\" }\nconst _hoisted_3 = { class: \"space-y-8\" }\nconst _hoisted_4 = { class: \"space-y-8\" }\n\nconst description =\n  \"Academic courses I have completed during my academic journey\";\n\nconst _sfc_main = {\n  __name: 'academic',\n  async setup(__props) {\n\nlet __temp, __restore\n\n\nuseSeoMeta({\n  title: \"Academic courses | Muhammad Murtadha Ramadhan\",\n  description,\n});\n\nconst { data: items } = (\n  ([__temp,__restore] = _withAsyncContext(() => useAsyncData(\"academic\", () =>\n  queryContent(\"/academic\").find()\n))),\n  __temp = await __temp,\n  __restore(),\n  __temp\n);\nconst ipb = items.value.filter((item) => item.category === \"ipb\");\nconst usc = items.value.filter((item) => item.category === \"usc\");\n\n// const ipbItems = items.value.filter((item) => item.category === \"ipb\");\n\n// const ipb = ipbData;\n// const usc = items.value.filter((item) => item.category === \"usc\");\n// const ipb = items.value.filter((item) => item.category === \"ipb\");\n// const desk = items.value.filter((item) => item.category === \"desk\");\n// const other = items.value.filter((item) => item.category === \"others\");\n\nreturn (_ctx, _cache) => {\n  const _component_AppHeader = _resolveComponent(\"AppHeader\")\n  const _component_AppAcademicHeader = _resolveComponent(\"AppAcademicHeader\")\n  const _component_AppAcademicItem = _resolveComponent(\"AppAcademicItem\")\n\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, [\n    _createVNode(_component_AppHeader, {\n      class: \"mb-12\",\n      title: \"Academic courses\",\n      description: description\n    }),\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"ul\", _hoisted_3, [\n        _createVNode(_component_AppAcademicHeader, { title: \"MS in Business Analytics, USC Marshall School of Business\" }),\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(usc), (item, id) => {\n          return (_openBlock(), _createBlock(_component_AppAcademicItem, {\n            key: id,\n            item: item\n          }, null, 8, [\"item\"]))\n        }), 128))\n      ]),\n      _createElementVNode(\"ul\", _hoisted_4, [\n        _createVNode(_component_AppAcademicHeader, { title: \"BSc in Computer Science, IPB University\" }),\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(ipb), (item, id) => {\n          return (_openBlock(), _createBlock(_component_AppAcademicItem, {\n            key: id,\n            item: item\n          }, null, 8, [\"item\"]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -74,105 +74,105 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1710626459425,
-      "end": 1710626459425,
+      "start": 1710658133602,
+      "end": 1710658133602,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { useSeoMeta } from '@unhead/vue';\nimport { useAsyncData } from '#app/composables/asyncData';\nimport { queryContent } from '/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/legacy/composables/query';\nimport { withAsyncContext as _withAsyncContext } from 'vue'\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createBlock as _createBlock, createElementVNode as _createElementVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"min-h-screen\" }\nconst _hoisted_2 = { class: \"space-y-24\" }\nconst _hoisted_3 = { class: \"space-y-8\" }\nconst _hoisted_4 = { class: \"space-y-8\" }\n\nconst description =\n  \"Academic courses I have completed during my academic journey\";\n\nconst _sfc_main = {\n  __name: 'academic',\n  async setup(__props) {\n\nlet __temp, __restore\n\n\nuseSeoMeta({\n  title: \"Academic courses | Muhammad Murtadha Ramadhan\",\n  description,\n});\n\nconst { data: items } = (\n  ([__temp,__restore] = _withAsyncContext(() => useAsyncData(\"academic\", () =>\n  queryContent(\"/academic\").find()\n))),\n  __temp = await __temp,\n  __restore(),\n  __temp\n);\nconst ipb = items.value.filter((item) => item.category === \"ipb\");\nconst usc = items.value.filter((item) => item.category === \"usc\");\n\n// const ipbItems = items.value.filter((item) => item.category === \"ipb\");\n\n// const ipb = ipbData;\n// const usc = items.value.filter((item) => item.category === \"usc\");\n// const ipb = items.value.filter((item) => item.category === \"ipb\");\n// const desk = items.value.filter((item) => item.category === \"desk\");\n// const other = items.value.filter((item) => item.category === \"others\");\n\nreturn (_ctx, _cache) => {\n  const _component_AppHeader = _resolveComponent(\"AppHeader\")\n  const _component_AppAcademicHeader = _resolveComponent(\"AppAcademicHeader\")\n  const _component_AppAcademicItem = _resolveComponent(\"AppAcademicItem\")\n\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, [\n    _createVNode(_component_AppHeader, {\n      class: \"mb-12\",\n      title: \"Academic courses\",\n      description: description\n    }),\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"ul\", _hoisted_3, [\n        _createVNode(_component_AppAcademicHeader, { title: \"MS in Business Analytics, USC Marshall School of Business\" }),\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(usc), (item, id) => {\n          return (_openBlock(), _createBlock(_component_AppAcademicItem, {\n            key: id,\n            item: item\n          }, null, 8, [\"item\"]))\n        }), 128))\n      ]),\n      _createElementVNode(\"ul\", _hoisted_4, [\n        _createVNode(_component_AppAcademicHeader, { title: \"BSc in Computer Science, IPB University\" }),\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(ipb), (item, id) => {\n          return (_openBlock(), _createBlock(_component_AppAcademicItem, {\n            key: id,\n            item: item\n          }, null, 8, [\"item\"]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1710626459425,
-      "end": 1710626459426,
+      "start": 1710658133602,
+      "end": 1710658133603,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -185,51 +185,51 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1710626459426,
-      "end": 1710626459426,
+      "start": 1710658133603,
+      "end": 1710658133603,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1710626459426,
-      "end": 1710626459426,
+      "start": 1710658133603,
+      "end": 1710658133603,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1710626459426,
-      "end": 1710626459426,
+      "start": 1710658133603,
+      "end": 1710658133603,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1710626459426,
-      "end": 1710626459426,
+      "start": 1710658133603,
+      "end": 1710658133603,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/components/App/Header.vue\";\nimport { default as __nuxt_component_1 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/components/App/AcademicHeader.vue\";\nimport { default as __nuxt_component_2 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/components/App/AcademicItem.vue\";\nimport { useSeoMeta } from '@unhead/vue';\nimport { useAsyncData } from '#app/composables/asyncData';\nimport { queryContent } from '/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/legacy/composables/query';\nimport { withAsyncContext as _withAsyncContext } from 'vue'\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, createBlock as _createBlock, createElementVNode as _createElementVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"min-h-screen\" }\nconst _hoisted_2 = { class: \"space-y-24\" }\nconst _hoisted_3 = { class: \"space-y-8\" }\nconst _hoisted_4 = { class: \"space-y-8\" }\n\nconst description =\n  \"Academic courses I have completed during my academic journey\";\n\nconst _sfc_main = {\n  __name: 'academic',\n  async setup(__props) {\n\nlet __temp, __restore\n\n\nuseSeoMeta({\n  title: \"Academic courses | Muhammad Murtadha Ramadhan\",\n  description,\n});\n\nconst { data: items } = (\n  ([__temp,__restore] = _withAsyncContext(() => useAsyncData(\"academic\", () =>\n  queryContent(\"/academic\").find()\n))),\n  __temp = await __temp,\n  __restore(),\n  __temp\n);\nconst ipb = items.value.filter((item) => item.category === \"ipb\");\nconst usc = items.value.filter((item) => item.category === \"usc\");\n\n// const ipbItems = items.value.filter((item) => item.category === \"ipb\");\n\n// const ipb = ipbData;\n// const usc = items.value.filter((item) => item.category === \"usc\");\n// const ipb = items.value.filter((item) => item.category === \"ipb\");\n// const desk = items.value.filter((item) => item.category === \"desk\");\n// const other = items.value.filter((item) => item.category === \"others\");\n\nreturn (_ctx, _cache) => {\n  const _component_AppHeader = __nuxt_component_0\n  const _component_AppAcademicHeader = __nuxt_component_1\n  const _component_AppAcademicItem = __nuxt_component_2\n\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, [\n    _createVNode(_component_AppHeader, {\n      class: \"mb-12\",\n      title: \"Academic courses\",\n      description: description\n    }),\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"ul\", _hoisted_3, [\n        _createVNode(_component_AppAcademicHeader, { title: \"MS in Business Analytics, USC Marshall School of Business\" }),\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(usc), (item, id) => {\n          return (_openBlock(), _createBlock(_component_AppAcademicItem, {\n            key: id,\n            item: item\n          }, null, 8, [\"item\"]))\n        }), 128))\n      ]),\n      _createElementVNode(\"ul\", _hoisted_4, [\n        _createVNode(_component_AppAcademicHeader, { title: \"BSc in Computer Science, IPB University\" }),\n        (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(ipb), (item, id) => {\n          return (_openBlock(), _createBlock(_component_AppAcademicItem, {\n            key: id,\n            item: item\n          }, null, 8, [\"item\"]))\n        }), 128))\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1710626459426,
-      "end": 1710626459426,
+      "start": 1710658133603,
+      "end": 1710658133603,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1710626459426,
-      "end": 1710626459426,
+      "start": 1710658133603,
+      "end": 1710658133603,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1710626459426,
-      "end": 1710626459426,
+      "start": 1710658133603,
+      "end": 1710658133604,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1710626459426,
-      "end": 1710626459426,
+      "start": 1710658133604,
+      "end": 1710658133604,
       "order": "normal"
     }
   ]
