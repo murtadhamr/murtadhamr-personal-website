@@ -4,7 +4,7 @@
       EDUCATION
     </h2>
     <div class="space-y-4">
-      <AppProjectCard
+      <AppNonProjectCard
         v-for="(project, id) in educations"
         :key="id"
         :project="project"

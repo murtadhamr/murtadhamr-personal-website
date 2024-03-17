@@ -22,12 +22,7 @@
     />
   </NuxtLink>
   <!-- Badges -->
-  <div class="flex gap-2 items-center">
-      <p class="text-gray-600 dark:text-gray-400 text-sm">Techs/skills:</p>
-      <span class="bg-blue-500 text-white px-2 py-1 rounded-lg text-xs">{{ project.tech1 }}</span>
-      <span class="bg-blue-500 text-white px-2 py-1 rounded-lg text-xs">{{ project.tech2 }}</span>
-      <span class="bg-blue-500 text-white px-2 py-1 rounded-lg text-xs">{{ project.tech3 }}</span>
-    </div>
+  <p class="text-gray-600 dark:text-gray-400 text-xs">Techs/skills: {{ project.tech1 }}, {{ project.tech2 }}, {{ project.tech3 }}</p>
 </template>
 
 <script setup>

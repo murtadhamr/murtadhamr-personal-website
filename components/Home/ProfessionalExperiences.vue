@@ -4,7 +4,7 @@
       PROFESSIONAL EXPERIENCES
     </h2>
     <div class="space-y-4">
-      <AppProjectCard
+      <AppNonProjectCard
         v-for="(project, id) in experiences"
         :key="id"
         :project="project"
