@@ -732,7 +732,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-BURnMHHo.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-Dd-aYgTL.mjs').then((m) => m.default || m)
   },
   {
     name: "lab",
@@ -883,7 +883,7 @@ const cfg0 = defineAppConfig({
 });
 const inlineConfig = {
   "nuxt": {
-    "buildId": "65065d6f-8db6-49aa-97b4-ad9390235268"
+    "buildId": "6b2c9e7a-4d92-465a-83bd-37143bd59152"
   },
   "ui": {
     "primary": "green",

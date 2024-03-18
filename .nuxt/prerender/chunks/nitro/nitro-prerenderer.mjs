@@ -77,7 +77,7 @@ const appConfig0 = defineAppConfig({
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "65065d6f-8db6-49aa-97b4-ad9390235268"
+    "buildId": "6b2c9e7a-4d92-465a-83bd-37143bd59152"
   },
   "ui": {
     "primary": "green",
@@ -182,7 +182,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1710681517108,
+      "integrity": 1710737406312,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -12757,6 +12757,32 @@ const components = {
           "schema": "Record<string, any>"
         },
         {
+          "name": "data",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "Record<string, any> | undefined",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                739,
+                792
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "Record<string, any> | undefined",
+            "schema": [
+              "undefined",
+              "Record<string, any>"
+            ]
+          },
+          "default": "{}"
+        },
+        {
           "name": "tag",
           "global": false,
           "description": "Root tag to use for rendering",
@@ -12810,32 +12836,6 @@ const components = {
           "default": "false"
         },
         {
-          "name": "data",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "Record<string, any> | undefined",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                739,
-                792
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "Record<string, any> | undefined",
-            "schema": [
-              "undefined",
-              "Record<string, any>"
-            ]
-          },
-          "default": "{}"
-        },
-        {
           "name": "components",
           "global": false,
           "description": "The map of custom components to use for rendering.",
@@ -12865,6 +12865,21 @@ const components = {
       "slots": [],
       "events": [],
       "exposed": [
+        {
+          "name": "data",
+          "type": "Record<string, any>",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                739,
+                792
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
+        },
         {
           "name": "tag",
           "type": "string",
@@ -12901,21 +12916,6 @@ const components = {
               "true"
             ]
           }
-        },
-        {
-          "name": "data",
-          "type": "Record<string, any>",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                739,
-                792
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
         },
         {
           "name": "value",
@@ -19658,7 +19658,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _WkTsh2, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1710681517108.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1710737406312.json', handler: _9BKGk9, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _nOp45J, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _nOp45J, lazy: false, middleware: false, method: "get" },

@@ -34,5 +34,10 @@ const links = [
     url: "https://www.linkedin.com/in/murtadhamr/",
     icon: "mdi:linkedin",
   },
+  // {
+  //   name: "Leetcode",
+  //   url: "https://leetcode.com/murtadhamr/",
+  //   icon: "mdi:twitter",
+  // },
 ];
 </script>

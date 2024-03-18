@@ -10680,6 +10680,32 @@ export default {
           "schema": "Record<string, any>"
         },
         {
+          "name": "data",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "Record<string, any> | undefined",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                739,
+                792
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "Record<string, any> | undefined",
+            "schema": [
+              "undefined",
+              "Record<string, any>"
+            ]
+          },
+          "default": "{}"
+        },
+        {
           "name": "tag",
           "global": false,
           "description": "Root tag to use for rendering",
@@ -10733,32 +10759,6 @@ export default {
           "default": "false"
         },
         {
-          "name": "data",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "Record<string, any> | undefined",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                739,
-                792
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "Record<string, any> | undefined",
-            "schema": [
-              "undefined",
-              "Record<string, any>"
-            ]
-          },
-          "default": "{}"
-        },
-        {
           "name": "components",
           "global": false,
           "description": "The map of custom components to use for rendering.",
@@ -10788,6 +10788,21 @@ export default {
       "slots": [],
       "events": [],
       "exposed": [
+        {
+          "name": "data",
+          "type": "Record<string, any>",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                739,
+                792
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
+        },
         {
           "name": "tag",
           "type": "string",
@@ -10824,21 +10839,6 @@ export default {
               "true"
             ]
           }
-        },
-        {
-          "name": "data",
-          "type": "Record<string, any>",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                739,
-                792
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
         },
         {
           "name": "value",
