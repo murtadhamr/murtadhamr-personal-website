@@ -4,81 +4,81 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\n  <div ref=\"headerRef\" :style=\"styles\" class=\"fixed top-0 w-full z-50\">\n    <nav class=\"mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl\">\n      <ul\n        class=\"flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5\"\n      >\n        <li v-for=\"item in items\" :key=\"item.path\">\n          <UTooltip\n            :text=\"item.name\"\n            :ui=\"{ popper: { strategy: 'absolute' } }\"\n          >\n            <ULink\n              :to=\"item.path\"\n              class=\"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\"\n              active-class=\"text-primary-600 dark:text-primary-400\"\n            >\n              <span\n                v-if=\"$route.path === item.path\"\n                class=\"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n              ></span>\n              <span>{{ item.name }}</span>\n            </ULink>\n          </UTooltip>\n        </li>\n        <li class=\"flex-1\"></li>\n        <li>\n          <AppThemeToggle />\n        </li>\n      </ul>\n    </nav>\n  </div>\n</template>\n\n\n<script setup>\nimport { useFixedHeader } from 'vue-use-fixed-header'\nconst headerRef = ref(null);\nconst { styles } = useFixedHeader(headerRef);\n\nconst items = [\n  { name: \"Home\", path: \"/\", \n  // icon: \"solar:home-smile-outline\" \n  },\n  {\n    name: \"Projects\",\n    path: \"/projects\",\n    // icon: \"solar:folder-with-files-outline\",\n  },\n  {\n    name: \"Blog\",\n    path: \"/articles\",\n    // icon: \"solar:document-add-outline\",\n  },\n  // { \n  //   name: \"Lab\", \n  //   path: \"/lab\", \n  //   // icon: \"heroicons:beaker\" \n  // },\n  {\n    name: \"Academic\",\n    path: \"/academic\",\n    // icon: \"solar:backpack-outline\",\n  },\n  // {\n  //   name: \"Bookmarks\",\n  //   path: \"/bookmarks\",\n  //   // icon: \"solar:bookmark-linear\",\n  // },\n];\n</script>\n",
-      "start": 1710737422965,
-      "end": 1710737423057,
+      "start": 1715671989151,
+      "end": 1715671989273,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "pre"
     },
     {
       "name": "content-slot",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "pre"
     },
     {
       "name": "content-slot",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1710737423057,
-      "end": 1710737423057,
+      "start": 1715671989273,
+      "end": 1715671989273,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { unref as _unref, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, toDisplayString as _toDisplayString, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nimport { useFixedHeader } from 'vue-use-fixed-header'\n\nconst _sfc_main = {\n  __name: 'Navbar',\n  __ssrInlineRender: true,\n  setup(__props) {\n\nconst headerRef = ref(null);\nconst { styles } = useFixedHeader(headerRef);\n\nconst items = [\n  { name: \"Home\", path: \"/\", \n  // icon: \"solar:home-smile-outline\" \n  },\n  {\n    name: \"Projects\",\n    path: \"/projects\",\n    // icon: \"solar:folder-with-files-outline\",\n  },\n  {\n    name: \"Blog\",\n    path: \"/articles\",\n    // icon: \"solar:document-add-outline\",\n  },\n  // { \n  //   name: \"Lab\", \n  //   path: \"/lab\", \n  //   // icon: \"heroicons:beaker\" \n  // },\n  {\n    name: \"Academic\",\n    path: \"/academic\",\n    // icon: \"solar:backpack-outline\",\n  },\n  // {\n  //   name: \"Bookmarks\",\n  //   path: \"/bookmarks\",\n  //   // icon: \"solar:bookmark-linear\",\n  // },\n];\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_UTooltip = _resolveComponent(\"UTooltip\")\n  const _component_ULink = _resolveComponent(\"ULink\")\n  const _component_AppThemeToggle = _resolveComponent(\"AppThemeToggle\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    ref_key: \"headerRef\",\n    ref: headerRef,\n    style: _unref(styles),\n    class: \"fixed top-0 w-full z-50\"\n  }, _attrs))}><nav class=\"mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl\"><ul class=\"flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5\"><!--[-->`)\n  _ssrRenderList(items, (item) => {\n    _push(`<li>`)\n    _push(_ssrRenderComponent(_component_UTooltip, {\n      text: item.name,\n      ui: { popper: { strategy: 'absolute' } }\n    }, {\n      default: _withCtx((_, _push, _parent, _scopeId) => {\n        if (_push) {\n          _push(_ssrRenderComponent(_component_ULink, {\n            to: item.path,\n            class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n            \"active-class\": \"text-primary-600 dark:text-primary-400\"\n          }, {\n            default: _withCtx((_, _push, _parent, _scopeId) => {\n              if (_push) {\n                if (_ctx.$route.path === item.path) {\n                  _push(`<span class=\"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"${_scopeId}></span>`)\n                } else {\n                  _push(`<!---->`)\n                }\n                _push(`<span${\n                  _scopeId\n                }>${\n                  _ssrInterpolate(item.name)\n                }</span>`)\n              } else {\n                return [\n                  (_ctx.$route.path === item.path)\n                    ? (_openBlock(), _createBlock(\"span\", {\n                        key: 0,\n                        class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                      }))\n                    : _createCommentVNode(\"\", true),\n                  _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n                ]\n              }\n            }),\n            _: 2\n          }, _parent, _scopeId))\n        } else {\n          return [\n            _createVNode(_component_ULink, {\n              to: item.path,\n              class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n              \"active-class\": \"text-primary-600 dark:text-primary-400\"\n            }, {\n              default: _withCtx(() => [\n                (_ctx.$route.path === item.path)\n                  ? (_openBlock(), _createBlock(\"span\", {\n                      key: 0,\n                      class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                    }))\n                  : _createCommentVNode(\"\", true),\n                _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n              ]),\n              _: 2\n            }, 1032, [\"to\"])\n          ]\n        }\n      }),\n      _: 2\n    }, _parent))\n    _push(`</li>`)\n  })\n  _push(`<!--]--><li class=\"flex-1\"></li><li>`)\n  _push(_ssrRenderComponent(_component_AppThemeToggle, null, null, _parent))\n  _push(`</li></ul></nav></div>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/App/Navbar.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1710737423057,
-      "end": 1710737423061,
+      "start": 1715671989273,
+      "end": 1715671989275,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -94,119 +94,119 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1710737423061,
-      "end": 1710737423061,
+      "start": 1715671989275,
+      "end": 1715671989275,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710737423061,
-      "end": 1710737423061,
+      "start": 1715671989275,
+      "end": 1715671989275,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710737423061,
-      "end": 1710737423061,
+      "start": 1715671989275,
+      "end": 1715671989275,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1710737423061,
-      "end": 1710737423061,
+      "start": 1715671989275,
+      "end": 1715671989275,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1710737423061,
-      "end": 1710737423061,
+      "start": 1715671989275,
+      "end": 1715671989275,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1710737423061,
-      "end": 1710737423061,
+      "start": 1715671989275,
+      "end": 1715671989275,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1710737423061,
-      "end": 1710737423061,
+      "start": 1715671989275,
+      "end": 1715671989275,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1710737423061,
-      "end": 1710737423061,
+      "start": 1715671989275,
+      "end": 1715671989275,
       "order": "normal"
     },
     {
       "name": "vite:define",
       "result": "import { unref as _unref, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, toDisplayString as _toDisplayString, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nimport { useFixedHeader } from \"vue-use-fixed-header\";\nconst _sfc_main = {\n  __name: \"Navbar\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const headerRef = ref(null);\n    const { styles } = useFixedHeader(headerRef);\n    const items = [\n      {\n        name: \"Home\",\n        path: \"/\"\n        // icon: \"solar:home-smile-outline\" \n      },\n      {\n        name: \"Projects\",\n        path: \"/projects\"\n        // icon: \"solar:folder-with-files-outline\",\n      },\n      {\n        name: \"Blog\",\n        path: \"/articles\"\n        // icon: \"solar:document-add-outline\",\n      },\n      // { \n      //   name: \"Lab\", \n      //   path: \"/lab\", \n      //   // icon: \"heroicons:beaker\" \n      // },\n      {\n        name: \"Academic\",\n        path: \"/academic\"\n        // icon: \"solar:backpack-outline\",\n      }\n      // {\n      //   name: \"Bookmarks\",\n      //   path: \"/bookmarks\",\n      //   // icon: \"solar:bookmark-linear\",\n      // },\n    ];\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_UTooltip = _resolveComponent(\"UTooltip\");\n      const _component_ULink = _resolveComponent(\"ULink\");\n      const _component_AppThemeToggle = _resolveComponent(\"AppThemeToggle\");\n      _push(`<div${_ssrRenderAttrs(_mergeProps({\n        ref_key: \"headerRef\",\n        ref: headerRef,\n        style: _unref(styles),\n        class: \"fixed top-0 w-full z-50\"\n      }, _attrs))}><nav class=\"mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl\"><ul class=\"flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5\"><!--[-->`);\n      _ssrRenderList(items, (item) => {\n        _push(`<li>`);\n        _push(_ssrRenderComponent(_component_UTooltip, {\n          text: item.name,\n          ui: { popper: { strategy: \"absolute\" } }\n        }, {\n          default: _withCtx((_, _push2, _parent2, _scopeId) => {\n            if (_push2) {\n              _push2(_ssrRenderComponent(_component_ULink, {\n                to: item.path,\n                class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n                \"active-class\": \"text-primary-600 dark:text-primary-400\"\n              }, {\n                default: _withCtx((_2, _push3, _parent3, _scopeId2) => {\n                  if (_push3) {\n                    if (_ctx.$route.path === item.path) {\n                      _push3(`<span class=\"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"${_scopeId2}></span>`);\n                    } else {\n                      _push3(`<!---->`);\n                    }\n                    _push3(`<span${_scopeId2}>${_ssrInterpolate(item.name)}</span>`);\n                  } else {\n                    return [\n                      _ctx.$route.path === item.path ? (_openBlock(), _createBlock(\"span\", {\n                        key: 0,\n                        class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                      })) : _createCommentVNode(\"\", true),\n                      _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n                    ];\n                  }\n                }),\n                _: 2\n              }, _parent2, _scopeId));\n            } else {\n              return [\n                _createVNode(_component_ULink, {\n                  to: item.path,\n                  class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n                  \"active-class\": \"text-primary-600 dark:text-primary-400\"\n                }, {\n                  default: _withCtx(() => [\n                    _ctx.$route.path === item.path ? (_openBlock(), _createBlock(\"span\", {\n                      key: 0,\n                      class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                    })) : _createCommentVNode(\"\", true),\n                    _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ];\n            }\n          }),\n          _: 2\n        }, _parent));\n        _push(`</li>`);\n      });\n      _push(`<!--]--><li class=\"flex-1\"></li><li>`);\n      _push(_ssrRenderComponent(_component_AppThemeToggle, null, null, _parent));\n      _push(`</li></ul></nav></div>`);\n    };\n  }\n};\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/App/Navbar.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nexport default _sfc_main;\n",
-      "start": 1710737423061,
-      "end": 1710737423321,
+      "start": 1715671989275,
+      "end": 1715671989509,
       "order": "normal",
       "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"/Users/murtadha.ramadhan/Documents/personal-website-3/components/App/Navbar.vue\"],\n  \"sourcesContent\": [\"import { unref as _unref, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, toDisplayString as _toDisplayString, createVNode as _createVNode, mergeProps as _mergeProps } from \\\"vue\\\"\\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \\\"vue/server-renderer\\\"\\n\\nimport { useFixedHeader } from 'vue-use-fixed-header'\\n\\nconst _sfc_main = {\\n  __name: 'Navbar',\\n  __ssrInlineRender: true,\\n  setup(__props) {\\n\\nconst headerRef = ref(null);\\nconst { styles } = useFixedHeader(headerRef);\\n\\nconst items = [\\n  { name: \\\"Home\\\", path: \\\"/\\\", \\n  // icon: \\\"solar:home-smile-outline\\\" \\n  },\\n  {\\n    name: \\\"Projects\\\",\\n    path: \\\"/projects\\\",\\n    // icon: \\\"solar:folder-with-files-outline\\\",\\n  },\\n  {\\n    name: \\\"Blog\\\",\\n    path: \\\"/articles\\\",\\n    // icon: \\\"solar:document-add-outline\\\",\\n  },\\n  // { \\n  //   name: \\\"Lab\\\", \\n  //   path: \\\"/lab\\\", \\n  //   // icon: \\\"heroicons:beaker\\\" \\n  // },\\n  {\\n    name: \\\"Academic\\\",\\n    path: \\\"/academic\\\",\\n    // icon: \\\"solar:backpack-outline\\\",\\n  },\\n  // {\\n  //   name: \\\"Bookmarks\\\",\\n  //   path: \\\"/bookmarks\\\",\\n  //   // icon: \\\"solar:bookmark-linear\\\",\\n  // },\\n];\\n\\nreturn (_ctx, _push, _parent, _attrs) => {\\n  const _component_UTooltip = _resolveComponent(\\\"UTooltip\\\")\\n  const _component_ULink = _resolveComponent(\\\"ULink\\\")\\n  const _component_AppThemeToggle = _resolveComponent(\\\"AppThemeToggle\\\")\\n\\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\\n    ref_key: \\\"headerRef\\\",\\n    ref: headerRef,\\n    style: _unref(styles),\\n    class: \\\"fixed top-0 w-full z-50\\\"\\n  }, _attrs))}><nav class=\\\"mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl\\\"><ul class=\\\"flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5\\\"><!--[-->`)\\n  _ssrRenderList(items, (item) => {\\n    _push(`<li>`)\\n    _push(_ssrRenderComponent(_component_UTooltip, {\\n      text: item.name,\\n      ui: { popper: { strategy: 'absolute' } }\\n    }, {\\n      default: _withCtx((_, _push, _parent, _scopeId) => {\\n        if (_push) {\\n          _push(_ssrRenderComponent(_component_ULink, {\\n            to: item.path,\\n            class: \\\"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\\\",\\n            \\\"active-class\\\": \\\"text-primary-600 dark:text-primary-400\\\"\\n          }, {\\n            default: _withCtx((_, _push, _parent, _scopeId) => {\\n              if (_push) {\\n                if (_ctx.$route.path === item.path) {\\n                  _push(`<span class=\\\"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\\\"${_scopeId}></span>`)\\n                } else {\\n                  _push(`<!---->`)\\n                }\\n                _push(`<span${\\n                  _scopeId\\n                }>${\\n                  _ssrInterpolate(item.name)\\n                }</span>`)\\n              } else {\\n                return [\\n                  (_ctx.$route.path === item.path)\\n                    ? (_openBlock(), _createBlock(\\\"span\\\", {\\n                        key: 0,\\n                        class: \\\"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\\\"\\n                      }))\\n                    : _createCommentVNode(\\\"\\\", true),\\n                  _createVNode(\\\"span\\\", null, _toDisplayString(item.name), 1)\\n                ]\\n              }\\n            }),\\n            _: 2\\n          }, _parent, _scopeId))\\n        } else {\\n          return [\\n            _createVNode(_component_ULink, {\\n              to: item.path,\\n              class: \\\"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\\\",\\n              \\\"active-class\\\": \\\"text-primary-600 dark:text-primary-400\\\"\\n            }, {\\n              default: _withCtx(() => [\\n                (_ctx.$route.path === item.path)\\n                  ? (_openBlock(), _createBlock(\\\"span\\\", {\\n                      key: 0,\\n                      class: \\\"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\\\"\\n                    }))\\n                  : _createCommentVNode(\\\"\\\", true),\\n                _createVNode(\\\"span\\\", null, _toDisplayString(item.name), 1)\\n              ]),\\n              _: 2\\n            }, 1032, [\\\"to\\\"])\\n          ]\\n        }\\n      }),\\n      _: 2\\n    }, _parent))\\n    _push(`</li>`)\\n  })\\n  _push(`<!--]--><li class=\\\"flex-1\\\"></li><li>`)\\n  _push(_ssrRenderComponent(_component_AppThemeToggle, null, null, _parent))\\n  _push(`</li></ul></nav></div>`)\\n}\\n}\\n\\n}\\n\\n\\n\\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\\nconst _sfc_setup = _sfc_main.setup\\n_sfc_main.setup = (props, ctx) => {\\n  const ssrContext = __vite_useSSRContext()\\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\\\"components/App/Navbar.vue\\\")\\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\\n}\\nexport default _sfc_main\"],\n  \"mappings\": \"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\",\n  \"names\": [\"_push\", \"_parent\", \"_\", \"_scopeId\"]\n}\n"
     },
     {
       "name": "vite:css-post",
-      "start": 1710737423321,
-      "end": 1710737423321,
+      "start": 1715671989509,
+      "end": 1715671989509,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1710737423321,
-      "end": 1710737423321,
+      "start": 1715671989509,
+      "end": 1715671989509,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1710737423321,
-      "end": 1710737423321,
+      "start": 1715671989509,
+      "end": 1715671989509,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1710737423321,
-      "end": 1710737423321,
+      "start": 1715671989509,
+      "end": 1715671989509,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1710737423321,
-      "end": 1710737423321,
+      "start": 1715671989509,
+      "end": 1715671989509,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1710737423321,
-      "end": 1710737423321,
+      "start": 1715671989509,
+      "end": 1715671989509,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1710737423321,
-      "end": 1710737423321,
+      "start": 1715671989509,
+      "end": 1715671989509,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1710737423321,
-      "end": 1710737423321,
+      "start": 1715671989509,
+      "end": 1715671989509,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1710737423321,
-      "end": 1710737423321,
+      "start": 1715671989509,
+      "end": 1715671989509,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { ref } from 'vue';\nimport { unref as _unref, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, toDisplayString as _toDisplayString, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nimport { useFixedHeader } from \"vue-use-fixed-header\";\nconst _sfc_main = {\n  __name: \"Navbar\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const headerRef = ref(null);\n    const { styles } = useFixedHeader(headerRef);\n    const items = [\n      {\n        name: \"Home\",\n        path: \"/\"\n        // icon: \"solar:home-smile-outline\" \n      },\n      {\n        name: \"Projects\",\n        path: \"/projects\"\n        // icon: \"solar:folder-with-files-outline\",\n      },\n      {\n        name: \"Blog\",\n        path: \"/articles\"\n        // icon: \"solar:document-add-outline\",\n      },\n      // { \n      //   name: \"Lab\", \n      //   path: \"/lab\", \n      //   // icon: \"heroicons:beaker\" \n      // },\n      {\n        name: \"Academic\",\n        path: \"/academic\"\n        // icon: \"solar:backpack-outline\",\n      }\n      // {\n      //   name: \"Bookmarks\",\n      //   path: \"/bookmarks\",\n      //   // icon: \"solar:bookmark-linear\",\n      // },\n    ];\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_UTooltip = _resolveComponent(\"UTooltip\");\n      const _component_ULink = _resolveComponent(\"ULink\");\n      const _component_AppThemeToggle = _resolveComponent(\"AppThemeToggle\");\n      _push(`<div${_ssrRenderAttrs(_mergeProps({\n        ref_key: \"headerRef\",\n        ref: headerRef,\n        style: _unref(styles),\n        class: \"fixed top-0 w-full z-50\"\n      }, _attrs))}><nav class=\"mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl\"><ul class=\"flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5\"><!--[-->`);\n      _ssrRenderList(items, (item) => {\n        _push(`<li>`);\n        _push(_ssrRenderComponent(_component_UTooltip, {\n          text: item.name,\n          ui: { popper: { strategy: \"absolute\" } }\n        }, {\n          default: _withCtx((_, _push2, _parent2, _scopeId) => {\n            if (_push2) {\n              _push2(_ssrRenderComponent(_component_ULink, {\n                to: item.path,\n                class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n                \"active-class\": \"text-primary-600 dark:text-primary-400\"\n              }, {\n                default: _withCtx((_2, _push3, _parent3, _scopeId2) => {\n                  if (_push3) {\n                    if (_ctx.$route.path === item.path) {\n                      _push3(`<span class=\"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"${_scopeId2}></span>`);\n                    } else {\n                      _push3(`<!---->`);\n                    }\n                    _push3(`<span${_scopeId2}>${_ssrInterpolate(item.name)}</span>`);\n                  } else {\n                    return [\n                      _ctx.$route.path === item.path ? (_openBlock(), _createBlock(\"span\", {\n                        key: 0,\n                        class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                      })) : _createCommentVNode(\"\", true),\n                      _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n                    ];\n                  }\n                }),\n                _: 2\n              }, _parent2, _scopeId));\n            } else {\n              return [\n                _createVNode(_component_ULink, {\n                  to: item.path,\n                  class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n                  \"active-class\": \"text-primary-600 dark:text-primary-400\"\n                }, {\n                  default: _withCtx(() => [\n                    _ctx.$route.path === item.path ? (_openBlock(), _createBlock(\"span\", {\n                      key: 0,\n                      class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                    })) : _createCommentVNode(\"\", true),\n                    _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ];\n            }\n          }),\n          _: 2\n        }, _parent));\n        _push(`</li>`);\n      });\n      _push(`<!--]--><li class=\"flex-1\"></li><li>`);\n      _push(_ssrRenderComponent(_component_AppThemeToggle, null, null, _parent));\n      _push(`</li></ul></nav></div>`);\n    };\n  }\n};\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/App/Navbar.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nexport default _sfc_main;\n",
-      "start": 1710737423321,
-      "end": 1710737423322,
+      "start": 1715671989509,
+      "end": 1715671989510,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -220,8 +220,8 @@
     {
       "name": "nuxt:imports-transform",
       "result": "import { ref } from 'vue';\nimport { unref as _unref, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, toDisplayString as _toDisplayString, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nimport { useFixedHeader } from \"vue-use-fixed-header\";\nconst _sfc_main = {\n  __name: \"Navbar\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const headerRef = ref(null);\n    const { styles } = useFixedHeader(headerRef);\n    const items = [\n      {\n        name: \"Home\",\n        path: \"/\"\n        // icon: \"solar:home-smile-outline\" \n      },\n      {\n        name: \"Projects\",\n        path: \"/projects\"\n        // icon: \"solar:folder-with-files-outline\",\n      },\n      {\n        name: \"Blog\",\n        path: \"/articles\"\n        // icon: \"solar:document-add-outline\",\n      },\n      // { \n      //   name: \"Lab\", \n      //   path: \"/lab\", \n      //   // icon: \"heroicons:beaker\" \n      // },\n      {\n        name: \"Academic\",\n        path: \"/academic\"\n        // icon: \"solar:backpack-outline\",\n      }\n      // {\n      //   name: \"Bookmarks\",\n      //   path: \"/bookmarks\",\n      //   // icon: \"solar:bookmark-linear\",\n      // },\n    ];\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_UTooltip = _resolveComponent(\"UTooltip\");\n      const _component_ULink = _resolveComponent(\"ULink\");\n      const _component_AppThemeToggle = _resolveComponent(\"AppThemeToggle\");\n      _push(`<div${_ssrRenderAttrs(_mergeProps({\n        ref_key: \"headerRef\",\n        ref: headerRef,\n        style: _unref(styles),\n        class: \"fixed top-0 w-full z-50\"\n      }, _attrs))}><nav class=\"mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl\"><ul class=\"flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5\"><!--[-->`);\n      _ssrRenderList(items, (item) => {\n        _push(`<li>`);\n        _push(_ssrRenderComponent(_component_UTooltip, {\n          text: item.name,\n          ui: { popper: { strategy: \"absolute\" } }\n        }, {\n          default: _withCtx((_, _push2, _parent2, _scopeId) => {\n            if (_push2) {\n              _push2(_ssrRenderComponent(_component_ULink, {\n                to: item.path,\n                class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n                \"active-class\": \"text-primary-600 dark:text-primary-400\"\n              }, {\n                default: _withCtx((_2, _push3, _parent3, _scopeId2) => {\n                  if (_push3) {\n                    if (_ctx.$route.path === item.path) {\n                      _push3(`<span class=\"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"${_scopeId2}></span>`);\n                    } else {\n                      _push3(`<!---->`);\n                    }\n                    _push3(`<span${_scopeId2}>${_ssrInterpolate(item.name)}</span>`);\n                  } else {\n                    return [\n                      _ctx.$route.path === item.path ? (_openBlock(), _createBlock(\"span\", {\n                        key: 0,\n                        class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                      })) : _createCommentVNode(\"\", true),\n                      _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n                    ];\n                  }\n                }),\n                _: 2\n              }, _parent2, _scopeId));\n            } else {\n              return [\n                _createVNode(_component_ULink, {\n                  to: item.path,\n                  class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n                  \"active-class\": \"text-primary-600 dark:text-primary-400\"\n                }, {\n                  default: _withCtx(() => [\n                    _ctx.$route.path === item.path ? (_openBlock(), _createBlock(\"span\", {\n                      key: 0,\n                      class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                    })) : _createCommentVNode(\"\", true),\n                    _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ];\n            }\n          }),\n          _: 2\n        }, _parent));\n        _push(`</li>`);\n      });\n      _push(`<!--]--><li class=\"flex-1\"></li><li>`);\n      _push(_ssrRenderComponent(_component_AppThemeToggle, null, null, _parent));\n      _push(`</li></ul></nav></div>`);\n    };\n  }\n};\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/App/Navbar.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nexport default _sfc_main;\n",
-      "start": 1710737423321,
-      "end": 1710737423322,
+      "start": 1715671989509,
+      "end": 1715671989510,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -234,39 +234,39 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1710737423322,
-      "end": 1710737423322,
+      "start": 1715671989510,
+      "end": 1715671989510,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1710737423322,
-      "end": 1710737423322,
+      "start": 1715671989510,
+      "end": 1715671989510,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1710737423322,
-      "end": 1710737423322,
+      "start": 1715671989510,
+      "end": 1715671989510,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1710737423322,
-      "end": 1710737423322,
+      "start": 1715671989510,
+      "end": 1715671989510,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1710737423322,
-      "end": 1710737423322,
+      "start": 1715671989510,
+      "end": 1715671989510,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/ui/dist/runtime/components/overlays/Tooltip.vue\";\nimport { default as __nuxt_component_1 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/ui/dist/runtime/components/elements/Link.vue\";\nimport { default as __nuxt_component_2 } from \"/Users/murtadha.ramadhan/Documents/personal-website-3/components/App/ThemeToggle.vue\";\nimport { ref } from 'vue';\nimport { unref as _unref, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, createCommentVNode as _createCommentVNode, toDisplayString as _toDisplayString, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nimport { useFixedHeader } from \"vue-use-fixed-header\";\nconst _sfc_main = {\n  __name: \"Navbar\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const headerRef = ref(null);\n    const { styles } = useFixedHeader(headerRef);\n    const items = [\n      {\n        name: \"Home\",\n        path: \"/\"\n        // icon: \"solar:home-smile-outline\" \n      },\n      {\n        name: \"Projects\",\n        path: \"/projects\"\n        // icon: \"solar:folder-with-files-outline\",\n      },\n      {\n        name: \"Blog\",\n        path: \"/articles\"\n        // icon: \"solar:document-add-outline\",\n      },\n      // { \n      //   name: \"Lab\", \n      //   path: \"/lab\", \n      //   // icon: \"heroicons:beaker\" \n      // },\n      {\n        name: \"Academic\",\n        path: \"/academic\"\n        // icon: \"solar:backpack-outline\",\n      }\n      // {\n      //   name: \"Bookmarks\",\n      //   path: \"/bookmarks\",\n      //   // icon: \"solar:bookmark-linear\",\n      // },\n    ];\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_UTooltip = __nuxt_component_0;\n      const _component_ULink = __nuxt_component_1;\n      const _component_AppThemeToggle = __nuxt_component_2;\n      _push(`<div${_ssrRenderAttrs(_mergeProps({\n        ref_key: \"headerRef\",\n        ref: headerRef,\n        style: _unref(styles),\n        class: \"fixed top-0 w-full z-50\"\n      }, _attrs))}><nav class=\"mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl\"><ul class=\"flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5\"><!--[-->`);\n      _ssrRenderList(items, (item) => {\n        _push(`<li>`);\n        _push(_ssrRenderComponent(_component_UTooltip, {\n          text: item.name,\n          ui: { popper: { strategy: \"absolute\" } }\n        }, {\n          default: _withCtx((_, _push2, _parent2, _scopeId) => {\n            if (_push2) {\n              _push2(_ssrRenderComponent(_component_ULink, {\n                to: item.path,\n                class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n                \"active-class\": \"text-primary-600 dark:text-primary-400\"\n              }, {\n                default: _withCtx((_2, _push3, _parent3, _scopeId2) => {\n                  if (_push3) {\n                    if (_ctx.$route.path === item.path) {\n                      _push3(`<span class=\"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"${_scopeId2}></span>`);\n                    } else {\n                      _push3(`<!---->`);\n                    }\n                    _push3(`<span${_scopeId2}>${_ssrInterpolate(item.name)}</span>`);\n                  } else {\n                    return [\n                      _ctx.$route.path === item.path ? (_openBlock(), _createBlock(\"span\", {\n                        key: 0,\n                        class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                      })) : _createCommentVNode(\"\", true),\n                      _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n                    ];\n                  }\n                }),\n                _: 2\n              }, _parent2, _scopeId));\n            } else {\n              return [\n                _createVNode(_component_ULink, {\n                  to: item.path,\n                  class: \"relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400\",\n                  \"active-class\": \"text-primary-600 dark:text-primary-400\"\n                }, {\n                  default: _withCtx(() => [\n                    _ctx.$route.path === item.path ? (_openBlock(), _createBlock(\"span\", {\n                      key: 0,\n                      class: \"absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0\"\n                    })) : _createCommentVNode(\"\", true),\n                    _createVNode(\"span\", null, _toDisplayString(item.name), 1)\n                  ]),\n                  _: 2\n                }, 1032, [\"to\"])\n              ];\n            }\n          }),\n          _: 2\n        }, _parent));\n        _push(`</li>`);\n      });\n      _push(`<!--]--><li class=\"flex-1\"></li><li>`);\n      _push(_ssrRenderComponent(_component_AppThemeToggle, null, null, _parent));\n      _push(`</li></ul></nav></div>`);\n    };\n  }\n};\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/App/Navbar.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nexport default _sfc_main;\n",
-      "start": 1710737423322,
-      "end": 1710737423322,
+      "start": 1715671989510,
+      "end": 1715671989510,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -279,20 +279,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1710737423322,
-      "end": 1710737423323,
+      "start": 1715671989510,
+      "end": 1715671989510,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1710737423323,
-      "end": 1710737423323,
+      "start": 1715671989510,
+      "end": 1715671989510,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1710737423323,
-      "end": 1710737423323,
+      "start": 1715671989511,
+      "end": 1715671989511,
       "order": "normal"
     }
   ]

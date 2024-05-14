@@ -2,7 +2,7 @@
   "name": "The Vegas Bandits, A New NBA Team",
   "url": "./articles/nba-vegas-bandits",
   "description": "Composed the new NBA team proposal through statistical analysis and linear optimization process for final project of Data Visualization and Statistical Computing class",
-  "thumbnail": "/projects/nba.png",
+  "thumbnail": "/projects/project.png",
   "status": "",
   "tech1": "Python",
   "tech2": "Gurobi (Linear Programming)", 

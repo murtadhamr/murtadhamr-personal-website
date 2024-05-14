@@ -14,12 +14,12 @@
     <div
       class="flex-1 border-b border-dashed border-gray-50 dark:border-gray-50 group-hover:border-gray-50"
     ></div>
-    <UAvatar
+    <!-- <UAvatar
       :src="project.thumbnail"
       :ui="{ rounded: 'rounded z-10 relative' }"
       size="md"
       :alt="project.name"
-    />
+    /> -->
   </NuxtLink>
   <!-- Badges -->
   <p class="text-gray-600 dark:text-gray-400 text-xs">Techs/skills: {{ project.tech1 }}, {{ project.tech2 }}, {{ project.tech3 }}</p>

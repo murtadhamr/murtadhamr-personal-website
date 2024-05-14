@@ -614,7 +614,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/index-Dd-aYgTL.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-wblUlCZX.js").then((m) => m.default || m)
   },
   {
     name: "lab",
@@ -630,7 +630,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import("./_nuxt/projects-C01TIVkB.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/projects-B0ntXDqV.js").then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -765,7 +765,7 @@ const cfg0 = defineAppConfig({
 });
 const inlineConfig = {
   "nuxt": {
-    "buildId": "6b2c9e7a-4d92-465a-83bd-37143bd59152"
+    "buildId": "fff20f32-1db4-4a1f-86de-e58107fad125"
   },
   "ui": {
     "primary": "green",
