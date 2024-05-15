@@ -1,5 +1,5 @@
 {
-  "name": "Options Pricing Prediction with Machine Learning",
+  "name": "Options Pricing Prediction Using Machine Learning",
   "url": "./articles/options-pricing-machine-learning",
   "description": "Built machine learning model to predict European Call Options Pricing as well as utilizing the model for S&P 500 value",
   "thumbnail": "/projects/project.png",
