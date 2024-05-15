@@ -1,6 +1,6 @@
 ---
 title: Predicting Options Call Pricing Using Machine Learning
-description: xyz
+description: In the realm of call option pricing, precision is crucial for informed decision-making, highlighting the importance of prediction accuracy for investors navigating complex financial markets. Equally important is interpretability, essential for understanding the factors influencing option prices. Our analysis focused on predicting European call option pricing using variables like current asset value, strike price, annual interest rate, and time to maturity, employing various regression and classification approaches, including support vector regression and KNN classifier. Our top-performing models, random forest regression and random forest classifier, outperformed the Black-Scholes model, achieving a 99.66% mean r-squared and a 6.36% classification error rate, respectively. This underscores the relevance of machine learning in financial analysis and its potential to provide deeper insights for investors. We advocate for including all relevant predictor variables in our models to ensure a comprehensive understanding of market dynamics. While our model performs well with S&P 500 data, extending it to Tesla stock requires careful validation due to unique market dynamics. With proper validation, our model could effectively predict option pricing for Tesla stock, guiding data-driven investment decisions.
 published: 2024/05/14
 slug: options-pricing-machine-learning
 ---
