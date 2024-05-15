@@ -34,7 +34,6 @@ export { _useShortcuts, useShortcuts } from '../node_modules/@nuxt/ui/dist/runti
 export { useTimer } from '../node_modules/@nuxt/ui/dist/runtime/composables/useTimer';
 export { useToast } from '../node_modules/@nuxt/ui/dist/runtime/composables/useToast';
 export { useUI } from '../node_modules/@nuxt/ui/dist/runtime/composables/useUI';
-export { __getComponentMeta, useComponentMeta } from '../node_modules/nuxt-component-meta/dist/runtime/composables/useComponentMeta';
 export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useImage } from '../node_modules/@nuxt/image/dist/runtime/composables';
 export { queryContent } from '../node_modules/@nuxt/content/dist/runtime/legacy/composables/query';
@@ -48,4 +47,5 @@ export { flatUnwrap as unwrapSlot } from '../node_modules/@nuxtjs/mdc/dist/runti
 export { parseMarkdown } from '../node_modules/@nuxtjs/mdc/dist/runtime/parser';
 export { useGtag } from '../node_modules/nuxt-gtag/dist/runtime/composables/useGtag';
 export { useTrackEvent } from '../node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent';
+export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

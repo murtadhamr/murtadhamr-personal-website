@@ -1,5 +1,0 @@
-// ROLLUP_NO_REPLACE 
- const _7_socialSellerLeadGeneration = "{\"parsed\":{\"_path\":\"/projects/social-seller-lead-generation\",\"_dir\":\"projects\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"name\":\"Social Seller Lead Generation Automation through Instagram Web Scraping\",\"url\":\"https://github.com/murtadhamr/instagram-suggested-account-scraping\",\"description\":\"Transformed social seller lead generation initiative by transitioning from manual procedures to automated web scraping on Instagram, resulting in a significant increase in daily leads from 200 to 10,000\",\"thumbnail\":\"/projects/project.png\",\"status\":\"\",\"tech1\":\"Web Scraping\",\"tech2\":\"Automation\",\"tech3\":\"Python\",\"_id\":\"content:projects:7.social-seller-lead-generation.json\",\"_type\":\"json\",\"title\":\"Social Seller Lead Generation\",\"_source\":\"content\",\"_file\":\"projects/7.social-seller-lead-generation.json\",\"_extension\":\"json\"},\"hash\":\"87VwcTSi0r\"}";
-
-export { _7_socialSellerLeadGeneration as default };
-//# sourceMappingURL=7.social-seller-lead-generation.mjs.map
