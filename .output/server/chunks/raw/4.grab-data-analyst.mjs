@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const _4_grabDataAnalyst = "{\"parsed\":{\"_path\":\"/professionalexp/grab-data-analyst\",\"_dir\":\"professionalexp\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"name\":\"Data Analyst at Grab\",\"url\":\"https://www.grab.com/sg/\",\"description\":\"April 2020 - September 2021\",\"thumbnail\":\"/professionalexp/grab.png\",\"status\":\"\",\"opensource\":true,\"_id\":\"content:professionalexp:4.grab-data-analyst.json\",\"_type\":\"json\",\"title\":\"Grab Data Analyst\",\"_source\":\"content\",\"_file\":\"professionalexp/4.grab-data-analyst.json\",\"_extension\":\"json\"},\"hash\":\"N7nM755VCv\"}";
+
+export { _4_grabDataAnalyst as default };
+//# sourceMappingURL=4.grab-data-analyst.mjs.map

@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const blendedDataBusinessAnalyticsForEfficientDecisions = "{\"parsed\":{\"_path\":\"/academic/blended-data-business-analytics-for-efficient-decisions\",\"_dir\":\"academic\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"name\":\"Blended Data Business Analytics for Efficient Decisions\",\"description\":\"Build Analytical Models for Classification, Clustering and Association Problems. Leverage third party 'Big Data' for enriching and monetizing data. Develop data mining and business analysis.\",\"url\":\"\",\"category\":\"usc\",\"thumbnail\":\"\",\"_id\":\"content:academic:blended-data-business-analytics-for-efficient-decisions.json\",\"_type\":\"json\",\"title\":\"Blended Data Business Analytics For Efficient Decisions\",\"_source\":\"content\",\"_file\":\"academic/blended-data-business-analytics-for-efficient-decisions.json\",\"_extension\":\"json\"},\"hash\":\"KO436Uq5aj\"}";
+
+export { blendedDataBusinessAnalyticsForEfficientDecisions as default };
+//# sourceMappingURL=blended-data-business-analytics-for-efficient-decisions.mjs.map

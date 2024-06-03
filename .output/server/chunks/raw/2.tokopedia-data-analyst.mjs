@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const _2_tokopediaDataAnalyst = "{\"parsed\":{\"_path\":\"/professionalexp/tokopedia-data-analyst\",\"_dir\":\"professionalexp\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"name\":\"Data Analyst at Tokopedia\",\"url\":\"https://www.tokopedia.com\",\"description\":\"September 2021 - July 2023\",\"thumbnail\":\"/professionalexp/tokopedia.png\",\"status\":\"\",\"opensource\":true,\"_id\":\"content:professionalexp:2.tokopedia-data-analyst.json\",\"_type\":\"json\",\"title\":\"Tokopedia Data Analyst\",\"_source\":\"content\",\"_file\":\"professionalexp/2.tokopedia-data-analyst.json\",\"_extension\":\"json\"},\"hash\":\"EnYiUSVq3Q\"}";
+
+export { _2_tokopediaDataAnalyst as default };
+//# sourceMappingURL=2.tokopedia-data-analyst.mjs.map

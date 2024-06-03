@@ -20,6 +20,7 @@
 /// <reference path="ui.colors.d.ts" />
 /// <reference path="tailwind.config.d.ts" />
 /// <reference path="types/content.d.ts" />
+/// <reference path="component-meta.d.ts" />
 /// <reference types="vue-router" />
 /// <reference path="types/middleware.d.ts" />
 /// <reference path="types/layouts.d.ts" />
