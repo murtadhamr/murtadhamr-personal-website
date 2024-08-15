@@ -2699,43 +2699,6 @@ export default {
           }
         },
         {
-          "name": "tag",
-          "type": "string",
-          "description": "The tag to use for the renderer element if it is used.",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3494,
-                3606
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "excerpt",
-          "type": "boolean",
-          "description": "Whether or not to render the excerpt.",
-          "declarations": [
-            {
-              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3714,
-                3803
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "boolean",
-            "schema": [
-              "false",
-              "true"
-            ]
-          }
-        },
-        {
           "name": "path",
           "type": "string | undefined",
           "description": "The path of the content to load from content source.",
@@ -3735,6 +3698,43 @@ export default {
                   }
                 }
               }
+            ]
+          }
+        },
+        {
+          "name": "tag",
+          "type": "string",
+          "description": "The tag to use for the renderer element if it is used.",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3494,
+                3606
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "excerpt",
+          "type": "boolean",
+          "description": "Whether or not to render the excerpt.",
+          "declarations": [
+            {
+              "file": "/Users/murtadha.ramadhan/Documents/personal-website-3/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3714,
+                3803
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "boolean",
+            "schema": [
+              "false",
+              "true"
             ]
           }
         },

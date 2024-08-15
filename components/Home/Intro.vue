@@ -8,7 +8,7 @@
     </h1>
     <p class="text-gray-900 dark:text-gray-400" style="text-align: justify;">
       Muhammad Murtadha Ramadhan, usually called Ado, is a business analytics professional with solid experiences 
-      in 2 largest Indonesia tech companies #1 Grab and #2 Tokopedia (GoTo Group) where he took part in composing 
+      in 2 largest Indonesia tech companies #1 Grab and #2 Tokopedia (ByteDance Group) where he took part in composing 
       actionable insights through analytics and developing business strategy and operations. Ado is currently 
       a Master of Science in Business Analytics candidate in University of Southern California Marshall School of Business. 
       Prior to it, Ado graduated with a Bachelor's Degree in Computer Science from IPB University and was awarded 
