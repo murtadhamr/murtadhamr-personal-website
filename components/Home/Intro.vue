@@ -16,7 +16,7 @@
     </p>
     <p class="text-gray-900 dark:text-gray-400">
       My resume is accessible 
-      <a href = "https://drive.google.com/file/d/1WMiAsEDsJmUcozfC1UFTJUk_GHxBsm8V/view?usp=sharing" 
+      <a href = "https://drive.google.com/file/d/1wKRlyPAnBkdb50WeLtmsDUHbT1e3jNAq/view?usp=sharing" 
       target="_blank" style="color:blue;">here</a>
     </p>
   </div>
